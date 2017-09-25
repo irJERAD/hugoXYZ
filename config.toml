@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = false
   name = "Jerad Acosta"
   role = "Extracting the Imperative from Data"
   organization = "Trial & mean squared Error"
-  organization_url = ""
+  organization_url = "irData.ninja"
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "ir@Jerad.xyz"
@@ -31,7 +31,7 @@ defaultContentLanguageInSubdir = false
   office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "+64 027 531 6179"
   skype = "jeradacosta"
-  telegram = ""
+  # telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = "irjerad"
