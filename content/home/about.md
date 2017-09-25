@@ -12,31 +12,33 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Data Science",
+    "Business Analytics",
+    "Machine Learning",
+    "Neural Networks and Other Quantitative Models of Biological Systems",
+    "Sailing",
+    "Surfing",
+    "Scuba"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "Cognitive Science: Focus in Natural Computation & Machine Learning"
+  institution = "University California San Diego"
+  year = 2013
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "Applied Mathematics"
+  institution = "University California San Diego"
+  year = 2013
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
+  course = "Data Science Professional Certification"
+  institution = "Johns Hopkins Bloomberg School of Public Health"
+  year = 2015
+
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+A place to reference, recite, rinse and repeat my efforts, failures, thoughts and progress, delusions and regressions, but mostly a sandbox for whoever I am at the moment. Perhaps I'll occasionally enjoy the reminiscing with the castles or taking census of the endless games of tic-tac-toe etched in my box.

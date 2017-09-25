@@ -5,12 +5,12 @@
 date = 2016-04-20
 draft = false
 
-title = "Recent Publications"
-subtitle = ""
+title = "More External Publications"
+subtitle = "from elsewheres"
 widget = "publications"
 
 # Order that this section will appear in.
-weight = 20
+weight = 60
 
 # Number of publications to list.
 count = 10
@@ -22,4 +22,3 @@ count = 10
 list_format = 0
 
 +++
-

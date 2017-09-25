@@ -6,12 +6,12 @@
 date = 2016-04-20
 draft = false
 
-title = "Selected Publications"
-subtitle = ""
+title = "Selected External Publications"
+subtitle = "<a href='http://irData.ninja'>irData</a>, <a href='https://www.linkedin.com/in/jeradacosta/detail/recent-activity/posts/'>Linkedin</a>, etc"
 widget = "publications_selected"
 
 # Order that this section will appear in.
-weight = 10
+weight = 50
 
 # List format.
 #   0 = Simple
@@ -20,4 +20,3 @@ weight = 10
 list_format = 2
 
 +++
-

@@ -6,6 +6,8 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+publishDir = "docs"
+
 # Enable comments by entering your Disqus shortname
 disqusShortname = "irJERAD"
 
@@ -26,7 +28,7 @@ defaultContentLanguageInSubdir = false
   organization_url = "irData.ninja"
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "ir@Jerad.xyz"
+  email = "ir@jerad.xyz"
   address = "h47 47 Hobson Street Suite 510, Auckland Central Aucklan, 1010 New Zealand"
   office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "+64 027 531 6179"
