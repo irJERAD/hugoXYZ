@@ -44,3 +44,8 @@ Here is a list of <a href="//Learning.LinkedIn.com">LinkedIn Learning</a> (_fka 
   - <a href='https://teamtreehouse.com/library/jupyter-notebooks'>Jupyter Notebooks</a>
   - <a href='https://teamtreehouse.com/library/data-visualization-with-bokeh'>Data Visualization with Bokeh</a>
   - <a href='https://teamtreehouse.com/library/d3js'>D3.js</a>
+
+**Technologies and Tutorials**
+
+- [ ] <a href="https://plot.ly/products/dash/">Dash</a>: Opensource python project with similar features as Shiny for R. Uses Flask, Plotly.js, and React.js  
+- [ ]

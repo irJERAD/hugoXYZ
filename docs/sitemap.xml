@@ -151,7 +151,42 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/analysis/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/project/applehealthkitdashboard/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/dashboard/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/data/</loc>
       <priority>0</priority>
     </url>
     
@@ -180,8 +215,44 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/exploratory/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/flexdashboard/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/ggplot2/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/hugo/</loc>
       <lastmod>2017-09-03T00:00:00+12:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/interactive/</loc>
       <priority>0</priority>
     </url>
     
@@ -210,6 +281,15 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/plotly/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -222,6 +302,24 @@
     
       <loc>http://jerad.xyz/publication_types/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/r/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/rstudio/</loc>
       <priority>0</priority>
     </url>
     
