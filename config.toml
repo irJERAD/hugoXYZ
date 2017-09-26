@@ -19,7 +19,8 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [blackfriday]
-  hrefTargetBlank = true
+  hrefTargetBlank = true # false set <a href="xyz.html" target="_blank"> to open all links in new window
+
 
 [params]
   name = "Jerad Acosta"
