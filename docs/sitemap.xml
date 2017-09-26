@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>http://jerad.xyz/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/talk/example-talk/</loc>
+      <loc>http://jerad.xyz/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>http://jerad.xyz/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>http://jerad.xyz/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>http://jerad.xyz/post/</loc>
       <lastmod>2017-01-01T00:00:00+13:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/project/deep-learning/</loc>
+      <loc>http://jerad.xyz/project/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>/project/example-external-project/</loc>
+      <loc>http://jerad.xyz/project/example-external-project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>/post/getting-started/</loc>
+      <loc>http://jerad.xyz/post/getting-started/</loc>
       <lastmod>2017-09-03T00:00:00+12:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>/post/widgets/</loc>
+      <loc>http://jerad.xyz/post/widgets/</loc>
       <lastmod>2016-04-19T00:00:00+12:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>/post/managing-content/</loc>
+      <loc>http://jerad.xyz/post/managing-content/</loc>
       <lastmod>2016-04-18T00:00:00+12:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>/post/writing-markdown-latex/</loc>
+      <loc>http://jerad.xyz/post/writing-markdown-latex/</loc>
       <lastmod>2016-04-17T00:00:00+12:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>/publication/person-re-identification/</loc>
+      <loc>http://jerad.xyz/publication/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>/post/migrate-from-jekyll/</loc>
+      <loc>http://jerad.xyz/post/migrate-from-jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+13:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>/publication/clothing-search/</loc>
+      <loc>http://jerad.xyz/publication/clothing-search/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,7 +131,7 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
+      <loc>http://jerad.xyz/publication_types/1/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -141,7 +141,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
+      <loc>http://jerad.xyz/publication_types/2/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -151,7 +151,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>http://jerad.xyz/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -160,7 +160,7 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
+      <loc>http://jerad.xyz/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -170,7 +170,7 @@
     
     <url>
     
-      <loc>/tags/demo/</loc>
+      <loc>http://jerad.xyz/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -180,7 +180,7 @@
     
     <url>
     
-      <loc>/tags/hugo/</loc>
+      <loc>http://jerad.xyz/tags/hugo/</loc>
       <lastmod>2017-09-03T00:00:00+12:00</lastmod>
       <priority>0</priority>
     </url>
@@ -190,7 +190,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>http://jerad.xyz/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -200,7 +200,7 @@
     
     <url>
     
-      <loc>/tags/jekyll/</loc>
+      <loc>http://jerad.xyz/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+13:00</lastmod>
       <priority>0</priority>
     </url>
@@ -210,7 +210,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>http://jerad.xyz/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -220,7 +220,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>http://jerad.xyz/publication_types/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -230,7 +230,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>http://jerad.xyz/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
