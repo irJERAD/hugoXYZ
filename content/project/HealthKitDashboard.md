@@ -3,17 +3,17 @@
 date = "2017-04-27"
 
 # Project title.
-title = "Apple HealthKit Data"
+title = "Apple HealthKit Dashboard"
 
 # Project summary to display on homepage.
-summary = "Interactive dashboard from my iPhone's HealthKit data build in R with htmlwidgets and flexboard packages"
+summary = "Interactive dashboard from my iPhone's HealthKit data build in R with htmlwidgets and flexboard packages. <a href="https://developer.apple.com/library/content/samplecode/Fit/Introduction/Intro.html">Learn from Apple HealthKit docs</a> how to access your data via iOS SDK or get a CSV from <a href="">an iOS App</a>"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "HealthKitDash.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["R", "Dashboard"]
+tags = ["HealthKit", ,"Quantified Self", "R", "Dashboard"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "/projects/HealthKitDashboard.html"
