@@ -9,7 +9,7 @@ title = "NYC Motor Collision Dashboard"
 summary = "A three panel, fully interactive dashboard based on the <a href='https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95'>NYC Motor Collision Data Set and organized by borough</a>"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+image_preview = "NYCCollisionDash.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

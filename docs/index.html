@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.27.1" />
+  <meta name="author" content="Jerad Acosta">
+  <meta name="description" content="Extracting the Imperative from Data">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-91420291-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  <link rel="alternate" href="http://jerad.xyz/index.xml" type="application/rss+xml" title="Internet of Me">
+  <link rel="feed" href="http://jerad.xyz/index.xml" type="application/rss+xml" title="Internet of Me">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="http://jerad.xyz/">
+
+  
+
+  <title>Internet of Me</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Internet of Me</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about" data-target="#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected" data-target="#publications_selected">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts" data-target="#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects" data-target="#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching" data-target="#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact" data-target="#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+
+  
+  
+  <section id="about" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
+  <div class="col-xs-12 col-md-4">
+    <div id="profile">
+
+      
+      <div class="portrait" style="background-image: url('https://s.gravatar.com/avatar/906c3f40929c367700ae6aaf1cd683ca?s=200');"></div>
+      <meta itemprop="image" content="https://s.gravatar.com/avatar/906c3f40929c367700ae6aaf1cd683ca?s=200">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Jerad Acosta</h2>
+        <h3 itemprop="jobTitle">Extracting the Imperative from Data</h3>
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="irData.ninja" target="_blank" itemprop="url">
+            <span itemprop="name">Trial &amp; mean squared Error</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="http://jerad.xyz/">
+
+      <ul class="social-icon" aria-hidden="true">
+        
+        
+        <li>
+          <a itemprop="sameAs" href="mailto:ir@Jerad.xyz" target="_blank">
+            <i class="fa fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//twitter.com/irJERAD" target="_blank">
+            <i class="fa fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//facebook.com/jeradacosta" target="_blank">
+            <i class="fa fa-facebook big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//github.com/irJERAD" target="_blank">
+            <i class="fa fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="//linkedin.com/in/jeradacosta/" target="_blank">
+            <i class="fa fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-8" itemprop="description">
+
+    
+
+<h1 id="biography">Biography</h1>
+
+<p>A place to reference, recite, rinse and repeat my efforts, failures, thoughts and progress, delusions and regressions, but mostly a sandbox for whoever I am at the moment. Perhaps I&rsquo;ll occasionally enjoy the reminiscing with the castles or taking census of the endless games of tic-tac-toe etched in my box.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-sm-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Data Science</li>
+          
+          <li>Business Analytics</li>
+          
+          <li>Machine Learning</li>
+          
+          <li>Neural Networks and Other Quantitative Models of Biological Systems</li>
+          
+          <li>Sailing</li>
+          
+          <li>Surfing</li>
+          
+          <li>Scuba</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-sm-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Cognitive Science: Focus in Natural Computation &amp; Machine Learning, 2013</p>
+              <p class="institution">University California San Diego</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Applied Mathematics, 2013</p>
+              <p class="institution">University California San Diego</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Data Science Professional Certification, 2015</p>
+              <p class="institution">Johns Hopkins Bloomberg School of Public Health</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="projects" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Projects</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+    
+    <span id="default-project-filter" class="hidden">*</span>
+    
+
+    <div class="project-toolbar">
+      <div id="filters">
+        <div class="btn-toolbar">
+          <div class="btn-group">
+            
+              <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
+            
+              <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-large">Deep Learning</a>
+            
+              <a href="#" data-filter=".demo" class="btn btn-primary btn-large">Other</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div id="container-projects" class="row isotope">
+
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item HealthKit Quantified Self R Dashboard">
+        <div class="card">
+          
+          <a href="/projects/HealthKitDashboard.html" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/HealthKitDash.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/projects/HealthKitDashboard.html" target="_blank">Apple HealthKit Dashboard</a></h4>
+            <div class="card-desription">
+              <p>Interactive dashboard from my iPhone&rsquo;s HealthKit data build in R with htmlwidgets and flexboard packages. <a href='https://developer.apple.com/library/content/samplecode/Fit/Introduction/Intro.html'>Learn from Apple HealthKit docs</a> how to access your data via iOS SDK or get a CSV from <a href='https://itunes.apple.com/gb/app/qs-access/id920297614?mt=8'>an iOS App</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item NYC Open Data Motor Collision R Dashboard">
+        <div class="card">
+          
+          <a href="/projects/HealthKitDashboard.html" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/NYCCollisionDash.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/projects/HealthKitDashboard.html" target="_blank">NYC Motor Collision Dashboard</a></h4>
+            <div class="card-desription">
+              <p>A three panel, fully interactive dashboard based on the <a href='https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95'>NYC Motor Collision Data Set and organized by borough</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="http://jerad.xyz/project/deep-learning/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/bubbles.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="http://jerad.xyz/project/deep-learning/" >Deep Learning</a></h4>
+            <div class="card-desription">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item demo">
+        <div class="card">
+          
+          <a href="http://example.org" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/boards.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="http://example.org" target="_blank">External Project</a></h4>
+            <div class="card-desription">
+              <p>An example of linking directly to an external project website using <code>external_link</code>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="talks" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Recent &amp; Upcoming Events</h1>
+    
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+    <ul class="fa-ul">
+      
+      <li itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa-li fa fa-comment-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="http://jerad.xyz/talk/example-talk/">Example Talk</a></span>
+  <p>
+    Jan 1, 2017,
+    
+            Hugo Academic Theme Conference
+    
+  </p>
+</li>
+
+      
+    </ul>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="posts" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+
+    <h1>Recent Posts</h1>
+    
+    
+
+  </div>
+  <div class="col-xs-12 col-md-8">
+
+    
+
+    
+      
+
+      
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+          
+      
+
+      
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <a href="http://jerad.xyz/post/getting-started/">
+    <img src="/img/headers/getting-started.png" class="article-banner" itemprop="image">
+  </a>
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://jerad.xyz/post/getting-started/" itemprop="url">Getting started with the Academic framework for Hugo</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <time datetime="2016-04-20 00:00:00 &#43;1200 NZST" itemprop="datePublished">
+      Sep 3, 2017
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/academic">academic</a
+    >, 
+    
+    <a href="/tags/hugo">hugo</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Create a beautifully simple personal or academic website in under 10 minutes.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://jerad.xyz/post/getting-started/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+          
+      
+
+      
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://jerad.xyz/post/widgets/" itemprop="url">Customizing the homepage with widgets</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2016-04-19 00:00:00 &#43;1200 NZST" itemprop="datePublished">
+      Apr 19, 2016
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/academic">academic</a
+    >, 
+    
+    <a href="/tags/hugo">hugo</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Enable/disable and configure widgets to customize your homepage.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://jerad.xyz/post/widgets/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+          
+      
+
+      
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://jerad.xyz/post/managing-content/" itemprop="url">Managing content</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2016-04-18 00:00:00 &#43;1200 NZST" itemprop="datePublished">
+      Apr 18, 2016
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/academic">academic</a
+    >, 
+    
+    <a href="/tags/hugo">hugo</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="http://jerad.xyz/post/writing-markdown-latex/" target="_blank">writing content with Markdown, LaTeX, and Shortcodes</a>.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://jerad.xyz/post/managing-content/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+
+      
+
+        
+
+        
+        
+
+        
+        
+
+      
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://jerad.xyz/post/writing-markdown-latex/" itemprop="url">Writing content with Markdown, LaTeX, and Shortcodes</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2016-04-17 00:00:00 &#43;1200 NZST" itemprop="datePublished">
+      Apr 17, 2016
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Content can be written using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a>, <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank">LaTeX math</a>, and <a href="http://gohugo.io/extras/shortcodes/" target="_blank">Hugo Shortcodes</a>. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://jerad.xyz/post/writing-markdown-latex/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+
+      
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://jerad.xyz/post/migrate-from-jekyll/" itemprop="url">Migrate from Jekyll to Hugo</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2014-03-10 00:00:00 &#43;1300 NZDT" itemprop="datePublished">
+      Mar 10, 2014
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/jekyll">jekyll</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Learn how to migrate an existing website from Jekyll to Hugo.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://jerad.xyz/post/migrate-from-jekyll/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="publications_selected" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Selected External Publications</h1>
+    <p><a href='http://irData.ninja'>irData</a>, <a href='https://www.linkedin.com/in/jeradacosta/detail/recent-activity/posts/'>Linkedin</a>, etc</p>
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+        <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="http://jerad.xyz/publication/clothing-search/">
+        <img src="/img/headers/bubbles-wide.jpg" class="pub-banner" itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="http://jerad.xyz/publication/clothing-search/" itemprop="url">Mobile visual clothing search</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone&rsquo;s GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        GA Cushen, MS Nixon
+        
+      </div>
+
+      <div class="pub-publication">
+        In <em>ICMEW</em>,&nbsp;2013.
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/publication/clothing-search/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf">
+  PDF
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/">
+  Slides
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/">
+  Video
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/">
+  Code
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/">
+  Dataset
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/project/deep-learning/">
+  Project
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
+  Custom Link
+</a>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="publications" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>More External Publications</h1>
+    <p>from elsewheres</p>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name">A Person Re-Identification System For Mobile Devices</span>
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/publication/person-re-identification/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://arxiv.org/pdf/1512.04133v1">
+  PDF
+</a>
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/project/deep-learning/">
+  Project
+</a>
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name">Mobile visual clothing search</span>
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/publication/clothing-search/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf">
+  PDF
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/">
+  Slides
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/">
+  Video
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/">
+  Code
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/">
+  Dataset
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://jerad.xyz/project/deep-learning/">
+  Project
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
+  Custom Link
+</a>
+
+</p>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="contact" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    <ul class="fa-ul" itemscope>
+
+      
+      <li>
+        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email"><a href="mailto:ir@jerad.xyz">ir@jerad.xyz</a></span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fa fa-lock fa-2x" aria-hidden="true"></i>
+        <span>
+          <a href="https://keybase.io/irjerad" target="_blank">@irjerad</a> on Keybase.
+        </span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
+        <span id="person-telephone" itemprop="telephone"><a href="tel:&#43;64%20027%20531%206179">&#43;64 027 531 6179</a></span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fa fa-skype fa-2x" aria-hidden="true"></i>
+        <span><a href="skype:jeradacosta?call">jeradacosta</a></span>
+      </li>
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">h47 47 Hobson Street Suite 510, Auckland Central Aucklan, 1010 New Zealand</span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fa fa-clock-o fa-2x" aria-hidden="true"></i>
+        <span>Monday 10:00 to 13:00 or email for appointment</span>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="teaching" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Learning</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    <p>A sophophilic in my practice, on a constant quest to collect an provide actionable insights from the knowledge I extract and catalog from myriad data source.
+An essential personal quality often transpiring as epistemophilia commands a philomath consistently emerge across any routine I maintain. Fortunately the internet has been brilliantly employed by world class educators, developers, and innovative contemporary minds on education to provide unimpeded access to priceless facilities to enable a constant challenge for fulfilling growth as an autodidactic.</p>
+
+<p>Here is a list of <a href="//Learning.LinkedIn.com">LinkedIn Learning</a> (<em>fka / aka</em> <a href='https://Lynda.com'>Lynda.com</a>)</p>
+
+<ul>
+<li><a href='https://www.linkedin.com/learning/operations-management-foundations/defining-quality'>Operations Management Foundations</a></li>
+<li><a href='https://www.linkedin.com/learning/google-cloud-platform-essential-training-2/understand-compute-service-options'>Google Cloud Platform Essential Training</a></li>
+<li><strong>Data Science</strong>
+
+<ul>
+<li><a href='https://www.linkedin.com/learning/machine-learning-ai-advanced-decision-trees/understanding-information-gain'>Machine Learning &amp; AI: Advanced Decision Trees
+</a></li>
+<li><a href='https://www.linkedin.com/learning/problem-solving-techniques/decision-trees'>Problem Solving Techniques</a></li>
+<li><a href='https://www.linkedin.com/learning/building-a-recommendation-system-with-python-machine-learning-ai'>Building a Recommendation System with Python Machine Learning &amp; AI</a></li>
+<li><a href='https://www.linkedin.com/learning/python-for-data-science-essential-training'>Python for Data Science Essential Training</a></li>
+</ul></li>
+</ul>
+
+<p><a href='//teamtreehouse.com'>TeamTreaHouse</a></p>
+
+<ul>
+<li><a href='https://teamtreehouse.com/library/introduction-to-html-and-css'>Introduction to HTML and CSS</a></li>
+<li><a href='https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs'>Build a Simple Dynamic Site with Node.js</a></li>
+<li><strong>React.js</strong>
+
+<ul>
+<li><a href='https://teamtreehouse.com/library/react-basics'>React-Basics</a></li>
+<li><a href='https://teamtreehouse.com/library/react-by-example'>React by Example</a></li>
+</ul></li>
+<li><strong>Flask</strong>
+
+<ul>
+<li><a href='https://teamtreehouse.com/library/flask-basics'>Flask Basics</a></li>
+<li><a href='https://teamtreehouse.com/library/build-a-social-network-with-flask'>Build a Social Network with Flask</a></li>
+<li><a href='https://teamtreehouse.com/library/flask-rest-api'>Flask REST API</a></li>
+</ul></li>
+<li><strong>Data</strong>
+
+<ul>
+<li><a href='https://teamtreehouse.com/library/jupyter-notebooks'>Jupyter Notebooks</a></li>
+<li><a href='https://teamtreehouse.com/library/data-visualization-with-bokeh'>Data Visualization with Bokeh</a></li>
+<li><a href='https://teamtreehouse.com/library/d3js'>D3.js</a></li>
+</ul></li>
+</ul>
+
+<p><strong>Technologies and Tutorials</strong></p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> <a href="https://plot.ly/products/dash/">Dash</a>: Opensource python project with similar features as Shiny for R. Uses Flask, Plotly.js, and React.js<br /></label></li>
+<li>[ ]</li>
+</ul>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="tags" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Tags</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+      
+      
+
+      
+      
+      
+      
+      
+
+      <div id="tag-cloud">
+        
+          
+          
+          
+          
+          
+          <a href="/tags/academic" style="font-size:2.1472181256129828rem">academic</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/dashboard" style="font-size:1.65rem">dashboard</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/deep-learning" style="font-size:0.8rem">deep-learning</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/demo" style="font-size:0.8rem">demo</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/healthkit" style="font-size:0.8rem">healthkit</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/hugo" style="font-size:2.1472181256129828rem">hugo</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/jekyll" style="font-size:0.8rem">jekyll</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/motor-collision" style="font-size:0.8rem">motor-collision</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/nyc" style="font-size:0.8rem">nyc</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/open-data" style="font-size:0.8rem">open-data</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/quantified-self" style="font-size:0.8rem">quantified-self</a>
+        
+          
+          
+          
+          
+          
+          <a href="/tags/r" style="font-size:1.65rem">r</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Jerad Acosta &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/python.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/html.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/css.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
