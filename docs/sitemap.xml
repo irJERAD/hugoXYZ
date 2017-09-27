@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://jerad.xyz/project/healthkitdashboard/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -151,15 +160,6 @@
     
     <url>
     
-      <loc>http://jerad.xyz/tags/analysis/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://jerad.xyz/categories/</loc>
       <priority>0</priority>
     </url>
@@ -169,24 +169,8 @@
     
     <url>
     
-      <loc>http://jerad.xyz/project/applehealthkitdashboard/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://jerad.xyz/tags/dashboard/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/tags/data/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -215,44 +199,8 @@
     
     <url>
     
-      <loc>http://jerad.xyz/tags/exploratory/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/tags/flexdashboard/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/tags/ggplot2/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://jerad.xyz/tags/hugo/</loc>
       <lastmod>2017-09-03T00:00:00+12:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/tags/interactive/</loc>
       <priority>0</priority>
     </url>
     
@@ -281,17 +229,8 @@
     
     <url>
     
-      <loc>http://jerad.xyz/tags/plotly/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://jerad.xyz/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -311,15 +250,7 @@
     <url>
     
       <loc>http://jerad.xyz/tags/r/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/tags/rstudio/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
