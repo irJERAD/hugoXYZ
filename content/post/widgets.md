@@ -12,27 +12,27 @@ Enable/disable and configure widgets to customize your homepage.
 Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:
 
 - About/biography
-- Selected publications
-- Recent publications
+- Selected ideas
+- Recent ideas
 - Recent news/blog posts
 - Projects
-- Selected talks
-- Recent talks
+- Selected experiences
+- Recent experiences
 - Contact
 - Tag cloud
 - Custom widget (demonstrated with the *teaching* example)
 
-The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don't need and customize the parameters of the widgets you wish to keep.
+The example site that you copied to create your site uses all the different types of widget (except experiences), so you can generally just delete the widgets you don't need and customize the parameters of the widgets you wish to keep.
 
 The parameters for each widget vary. They can be found in the preamble/frontmatter (between the pair of `+++`) for each widget installed in the `content/home/` folder.
 
 {{% alert note %}}
-By default, publications will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed publication list on the homepage by setting `list_format = 2` in `content/home/publications.md`.
+By default, ideas will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed idea list on the homepage by setting `list_format = 2` in `content/home/ideas.md`.
 {{% /alert %}}
 
 ## Add a widget to the homepage
 
-To add a widget manually, copy the relevant widget from `themes/academic/exampleSite/content/home/` to your `content/home/` folder. 
+To add a widget manually, copy the relevant widget from `themes/academic/exampleSite/content/home/` to your `content/home/` folder.
 
 Widget identifiers are set to their respective filenames, so a `content/home/about.md` widget can be linked from the navigation bar by setting the relevant URL as `"#about"` in `config.toml`.
 

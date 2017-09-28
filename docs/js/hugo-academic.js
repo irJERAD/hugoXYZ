@@ -120,10 +120,10 @@
   });
 
   /* ---------------------------------------------------------------------------
-   * Filter publications.
+   * Filter ideas.
    * --------------------------------------------------------------------------- */
 
-  let $grid_pubs = $('#container-publications');
+  let $grid_pubs = $('#container-ideas');
   $grid_pubs.isotope({
     itemSelector: '.isotope-item',
     percentPosition: true,
@@ -133,7 +133,7 @@
     }
   });
 
-  // Active publication filters.
+  // Active idea filters.
   let pubFilters = {};
 
   // Flatten object by concatenating values.
@@ -160,7 +160,7 @@
     // Activate filters.
     $grid_pubs.isotope({ filter: filterValues });
 
-    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    // If filtering by idea type, update the URL hash to enable direct linking to results.
     if (filterGroup == "pubtype") {
       // Set hash URL to current filter.
       let url = $(this).val();
@@ -172,8 +172,8 @@
     }
   });
 
-  // Filter publications according to hash in URL.
-  function filter_publications() {
+  // Filter ideas according to hash in URL.
+  function filter_ideas() {
     let urlHash = window.location.hash.replace('#','');
     let filterValue = '*';
 
@@ -220,11 +220,11 @@
       resizeTimer = setTimeout(fixScrollspy, 200);
     });
 
-    // Enable publication filter for publication index page.
+    // Enable idea filter for idea index page.
     if ($('.pub-filters-select')) {
-      filter_publications();
+      filter_ideas();
       // Useful for changing hash manually (e.g. in development):
-      // window.addEventListener('hashchange', filter_publications, false);
+      // window.addEventListener('hashchange', filter_ideas, false);
     }
 
   });

@@ -1,4 +1,4 @@
-/*************************************************
+Experience/*************************************************
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
  *  https://github.com/gcushen/hugo-academic
@@ -499,7 +499,7 @@ article {
 }
 
 /*************************************************
- *  Publications
+ *  ideas
  **************************************************/
 
 .pub-icon {
@@ -543,7 +543,7 @@ article {
   color: #3170A5;
 }
 
-.pub-list-item .pub-publication {
+.pub-list-item .pub-idea {
   color: #090;
   font-size: 1rem;
 }
@@ -552,17 +552,17 @@ article {
   padding-top: 10px;
 }
 
-#container-publications {
+#container-ideas {
   display: block;
   position: relative;
   overflow: hidden;
 }
 
 /*************************************************
- * Talks
+ * Experiences
  **************************************************/
 
-.talk-event {
+.experience-event {
   color: #090;
   font-size: 1rem;
 }

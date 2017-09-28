@@ -1,4 +1,4 @@
-+++
+experience+++
 date = 2016-04-18
 draft = false
 tags = ["academic", "hugo"]
@@ -6,7 +6,7 @@ title = "Managing content"
 math = false
 +++
 
-This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about [writing content with Markdown, LaTeX, and Shortcodes]({{< ref "post/writing-markdown-latex.md" >}}).<!--more-->
+This is a brief guide to managing content with the Academic framework. Content can include ideas, projects, experiences, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about [writing content with Markdown, LaTeX, and Shortcodes]({{< ref "post/writing-markdown-latex.md" >}}).<!--more-->
 
 To enable LaTeX math rendering for a page, you should include `math = true` in the page's `+++` preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set `math = true` in `config.toml`.
 
@@ -27,13 +27,13 @@ If you wish to prevent a featured image automatically being used for a post's th
 
 {{% toc%}}
 
-## Create a publication
+## Create a idea
 
-To create a new publication:
+To create a new idea:
 
-    hugo new publication/my-paper-name.md
+    hugo new idea/my-paper-name.md
 
-Then edit the default variables at the top of `content/publication/my-paper-name.md` to include the details of your publication. The `url_` variables are used to generate links associated with your publication, such as for viewing PDFs of papers. Here is an example:
+Then edit the default variables at the top of `content/idea/my-paper-name.md` to include the details of your idea. The `url_` variables are used to generate links associated with your idea, such as for viewing PDFs of papers. Here is an example:
 
 ```
 +++
@@ -43,8 +43,8 @@ date = "2013-07-01"
 image = ""
 image_preview = ""
 math = false
-publication = "The publishing part of the citation goes here. You may use *Markdown* for italics etc."
-title = "A publication title, such as title of a paper"
+idea = "The publishing part of the citation goes here. You may use *Markdown* for italics etc."
+title = "A idea title, such as title of a paper"
 url_code = ""
 url_dataset = ""
 url_pdf = "pdf/my-paper-name.pdf"
@@ -53,12 +53,12 @@ url_slides = ""
 url_video = ""
 +++
 
-Further details on your publication can be written here using *Markdown* for formatting. This text will be displayed on the Publication Detail page.
+Further details on your idea can be written here using *Markdown* for formatting. This text will be displayed on the idea Detail page.
 ```
 
-The `url_` links can either point to local or web content. Associated local publication content, such as PDFs, may be copied to a `static/pdf/` folder and referenced like `url_pdf = "pdf/my-paper-name.pdf"`.
+The `url_` links can either point to local or web content. Associated local idea content, such as PDFs, may be copied to a `static/pdf/` folder and referenced like `url_pdf = "pdf/my-paper-name.pdf"`.
 
-You can also associate custom link buttons with the publication by adding the following block(s) within the variable preamble above, which is denoted by `+++`:
+You can also associate custom link buttons with the idea by adding the following block(s) within the variable preamble above, which is denoted by `+++`:
 
 ```
 [[url_custom]]
@@ -66,7 +66,7 @@ You can also associate custom link buttons with the publication by adding the fo
     url = "http://www.example.org"
 ```
 
-If you enabled `detailed_list` for publications in `config.toml`, then there are a few more optional variables that you can include in the publication page preamble. You may use `abstract_short = "friendly summary of abstract"` and `publication_short = "abbreviated publication details"` to display a friendly summary of the abstract and abbreviate the publication details, respectively. Furthermore, there is the option to display a different image on the homepage to the publication detail page by setting `image_preview = "my-image.jpg"`. This can be useful if you wish to scale down the image for the homepage or simply if you just wish to show a different image for the preview.
+If you enabled `detailed_list` for ideas in `config.toml`, then there are a few more optional variables that you can include in the idea page preamble. You may use `abstract_short = "friendly summary of abstract"` and `idea_short = "abbreviated idea details"` to display a friendly summary of the abstract and abbreviate the idea details, respectively. Furthermore, there is the option to display a different image on the homepage to the idea detail page by setting `image_preview = "my-image.jpg"`. This can be useful if you wish to scale down the image for the homepage or simply if you just wish to show a different image for the preview.
 
 {{% alert warning %}}
 Any double quotes (`"`) or backslashes (e.g. LaTeX `\times`) occurring within the value of any frontmatter parameter (such as the *abstract*) should be escaped with a backslash (`\`). For example, the symbol `"` and LaTeX text `\times` become `\"` and `\\times`, respectively. Refer to the [TOML documentation](https://github.com/toml-lang/toml#user-content-string) for more info.
@@ -94,13 +94,13 @@ To create a project:
 
 Then edit the newly created file `content/project/my-project-name.md`. Either you can link the project to an external project website by setting the `external_link = "http://external-project.com"` variable at the top of the file, or you can add content (below the final `+++`) in order to render a project page on your website.
 
-## Create a talk
+## Create an experience
 
-To create a talk:
+To create a experience:
 
-    hugo new talk/my-talk-name.md
+    hugo new experience/my-experience-name.md
 
-Then edit the newly created file `content/talk/my-talk-name.md` with your full talk title and details. Note that many of the talk parameters are similar to the publication parameters.
+Then edit the newly created file `content/experience/my-experience-name.md` with your full experience title and details. Note that many of the experience parameters are similar to the idea parameters.
 
 ## Create other pages (e.g. CV)
 
@@ -110,13 +110,13 @@ Alternatively, for the above example, we could use a PDF of your Curriculum Vita
 
 ## Manage node index pages
 
-The node index pages (e.g. `/post/`) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the node index pages when you have more items of content than can be displayed in the widget. Therefore, if you don't have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.
+The node index pages (e.g. `/post/`) are the special pages which list all of your content. They can exist for blog posts, ideas, and experiences. The homepage widgets will automatically link to the node index pages when you have more items of content than can be displayed in the widget. Therefore, if you don't have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.
 
 You can edit the title and add your own content, such as an introduction, by creating and editing the following content files for the node indexes:
 
     hugo new post/_index.md
-    hugo new publication/_index.md
-    hugo new talk/_index.md
+    hugo new idea/_index.md
+    hugo new experience/_index.md
 
 Then remove all parameters except for `title`, `math`, `highlight`, and `date`. Edit the `title` parameter as desired and add any content after the `+++` preamble/frontmatter ends. For example, you should have something similar to:
 
@@ -134,7 +134,7 @@ Below is an automatically generated list of all my blog posts!
 
 ## Removing content
 
-Generally, to remove content, simply delete the relevant file from your `content/post`, `content/publication`, `content/project`, or `content/talk` folder.
+Generally, to remove content, simply delete the relevant file from your `content/post`, `content/idea`, `content/project`, or `content/experience` folder.
 
 ## View your updated site
 

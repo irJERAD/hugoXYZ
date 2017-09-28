@@ -13,7 +13,7 @@ image_preview = "NYCMotorDash.gif"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["NYC", "Open Data", "Motor Collision", "R", "Dashboard"]
+tags = ["open-data", "r", "dashboard"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "/projects/NYCMotorCollisionDash.html"

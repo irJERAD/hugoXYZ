@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ideas on Internet of Me</title>
+    <link>http://jerad.xyz/idea/</link>
+    <description>Recent content in ideas on Internet of Me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jerad Acosta</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/idea/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A Person Re-Identification System For Mobile Devices</title>
+      <link>http://jerad.xyz/idea/person-re-identification/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/idea/person-re-identification/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://jerad.xyz/idea/clothing-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/idea/clothing-search/</guid>
+      <description>
+
+&lt;p&gt;idea_types+++
+abstract = &amp;ldquo;We present a mobile visual clothing search system whereby a smart phone user can either choose a social networking photo or take a new photo of a person wearing clothing of interest and search for similar clothing in a retail database. From the query image, the person is detected, clothing is segmented, and clothing features are extracted and quantized. The information is sent from the phone client to a server, where the feature vector of the query image is used to retrieve similar clothing products from online databases. The phone&amp;rsquo;s GPS location is used to re-rank results by retail store location. State of the art work focuses primarily on the recognition of a diverse range of clothing offline and pays little attention to practical applications. Evaluated on a challenging dataset, the system is relatively fast and achieves promising results.&amp;rdquo;
+abstract_short = &amp;ldquo;A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone&amp;rsquo;s GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on.&amp;rdquo;
+authors = [&amp;ldquo;GA Cushen&amp;rdquo;, &amp;ldquo;MS Nixon&amp;rdquo;]
+date = &amp;ldquo;2013-07-01&amp;rdquo;
+image_preview = &amp;ldquo;&amp;rdquo;
+math = true
+idea_types = [&amp;ldquo;1&amp;rdquo;]
+idea = &amp;ldquo;In &lt;em&gt;International Conference on Multimedia and Expo Workshops (ICMEW)&lt;/em&gt;, IEEE.&amp;rdquo;
+idea_short = &amp;ldquo;In &lt;em&gt;ICMEW&lt;/em&gt;&amp;ldquo;
+selected = true
+title = &amp;ldquo;Mobile visual clothing search&amp;rdquo;
+url_code = &amp;ldquo;#&amp;rdquo;
+url_dataset = &amp;ldquo;#&amp;rdquo;
+url_pdf = &amp;ldquo;&lt;a href=&#34;http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf&amp;quot;&#34; target=&#34;_blank&#34;&gt;http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf&amp;quot;&lt;/a&gt;
+url_project = &amp;ldquo;project/deep-learning/&amp;rdquo;
+url_slides = &amp;ldquo;#&amp;rdquo;
+url_video = &amp;ldquo;#&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;[[url_custom]]
+name = &amp;ldquo;Custom Link&amp;rdquo;
+url = &amp;ldquo;&lt;a href=&#34;http://www.example.org&amp;quot;&#34; target=&#34;_blank&#34;&gt;http://www.example.org&amp;quot;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;optional-featured-image-relative-to-static-img-folder&#34;&gt;Optional featured image (relative to &lt;code&gt;static/img/&lt;/code&gt; folder).&lt;/h1&gt;
+
+&lt;p&gt;[header]
+image = &amp;ldquo;headers/bubbles-wide.jpg&amp;rdquo;
+caption = &amp;ldquo;My caption 😄&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;+++&lt;/p&gt;
+
+&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

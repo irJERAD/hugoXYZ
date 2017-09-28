@@ -13,7 +13,7 @@ image_preview = "HealthKitDash.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["HealthKit" ,"Quantified Self", "R", "Dashboard"]
+tags = ["healthkit" ,"quantified-self", "r", "dashboard"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "/projects/HealthKitDashboard.html"

@@ -54,7 +54,7 @@ A numbered figure with caption:
 
     [I'm a link](https://www.google.com)
     [A post]({{</* ref "post/hi.md" */>}})
-    [A publication]({{</* ref "publication/hi.md" */>}})
+    [A idea]({{</* ref "idea/hi.md" */>}})
     [A project]({{</* ref "project/hi.md" */>}})
     [Another section]({{</* relref "hi.md#who" */>}})
     

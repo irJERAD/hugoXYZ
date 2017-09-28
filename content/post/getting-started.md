@@ -6,7 +6,7 @@ tags = ["academic", "hugo"]
 title = "Getting started with the Academic framework for Hugo"
 math = true
 summary = """
-Create a beautifully simple personal or academic website in under 10 minutes. 
+Create a beautifully simple personal or academic website in under 10 minutes.
 """
 
 [header]
@@ -19,8 +19,8 @@ The Academic framework enables you to easily create a beautifully simple persona
 
 Key features:
 
-- Easily manage your homepage, blog posts, publications, talks, and projects
-- Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact
+- Easily manage your homepage, blog posts, ideas, experiences, and projects
+- Configurable widgets available for Biography, ideas, Projects, News/Blog, Experiences, and Contact
 - Need a different section? Just use the Custom widget!
 - Write in [Markdown]({{< ref "post/writing-markdown-latex.md" >}}) for easy formatting and code highlighting, with [LaTeX](https://en.wikibooks.org/wiki/LaTeX/Mathematics) for mathematical expressions
 - Social/academic network linking, [Google Analytics](https://analytics.google.com), and [Disqus](https://disqus.com) comments
@@ -69,7 +69,7 @@ The core parameters for the website can be edited in the `config.toml` configura
 - Set `baseurl` to your website URL (we recommend [GitHub Pages](https://georgecushen.com/create-your-website-with-hugo/) for free hosting)
 - Set `title` to your desired website title such as your name
 - The example Disqus commenting variable should be cleared (e.g. `disqusShortname = ""`) or set to your own [Disqus](https://disqus.com/) shortname to enable commenting
-- Edit your details under `[params]`; these will be displayed mainly in the homepage *about* and *contact* widgets (if used). To disable a contact field, simply clear the value to `""`. 
+- Edit your details under `[params]`; these will be displayed mainly in the homepage *about* and *contact* widgets (if used). To disable a contact field, simply clear the value to `""`.
 - Place a square cropped portrait photo named `portrait.jpg` into the `static/img/` folder, overwriting any defaults. Alternatively, you can edit the `avatar` filepath to point to a different image name or clear the value to disable the avatar feature.
 - To enable LaTeX math for your site, set `math = true`
 - Social/academic networking links are defined as multiples of `[[params.social]]`. They can be created or deleted as necessary.
@@ -84,7 +84,7 @@ Refer to our guide on using [widgets]({{< ref "post/widgets.md" >}}) to customiz
 
 ### Add your content
 
-Refer to our guide on [managing content]({{< ref "post/managing-content.md" >}}) to create your own publications, blog posts, talks, and projects.
+Refer to our guide on [managing content]({{< ref "post/managing-content.md" >}}) to create your own ideas, blog posts, experiences, and projects.
 
 ### Remove unused widgets and pages
 

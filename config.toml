@@ -31,7 +31,7 @@ defaultContentLanguageInSubdir = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "ir@jerad.xyz"
   address = "h47 47 Hobson Street Suite 510, Auckland Central Aucklan, 1010 New Zealand"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "+64 027 531 6179"
   skype = "jeradacosta"
   # telegram = ""
@@ -93,20 +93,20 @@ defaultContentLanguageInSubdir = false
   custom_css = []
   custom_js  = []
 
-  # Publication types.
-  #   Used to categorize publications.
-  #   The index of the publication type in the list is used as its unique numerical identifier.
-  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  # idea types.
+  #   Used to categorize ideas.
+  #   The index of the idea type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a idea's frontmatter to categorize it.
   #   The language can be edited below.
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
-  publication_types = [
-    'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal',  # 2
-    'Work in progress',  # 3
-    'Technical report',  # 4
+  idea_types = [
+    'irData',  # 0
+    'LinkedIn',  # 1
+    'JeradXYZ',  # 2
+    'Medium',  # 3
+    'facebook',  # 4
     'Book',  # 5
-    'Book chapter'  # 6
+    'YouTube'  # 6
   ]
 
   # Social/Academic Networking
@@ -152,7 +152,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//linkedin.com/in/jeradacosta/"
 
-
+  [[params.social]]
+    icon = "google-plus"
+    icon_pack = "fa"
+    link = "//plus.google.com/u/0/+JeradAcosta9"
 
 
 # Navigation Links
@@ -166,8 +169,8 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Interesting Ideas"
+  url = "#ideas_selected"
   weight = 2
 
 [[menu.main]]
@@ -181,8 +184,8 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Learning"
+  url = "#learning"
   weight = 5
 
 [[menu.main]]
@@ -194,7 +197,7 @@ defaultContentLanguageInSubdir = false
 [taxonomies]
   tag = "tags"
   category = "categories"
-  publication_type = "publication_types"
+  idea_source = "idea_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.

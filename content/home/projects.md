@@ -30,11 +30,11 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Interactive Dashboards"
+  tag = ".dashboard"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "RStats"
+  tag = ".r"
 
 +++
