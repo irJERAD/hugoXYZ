@@ -48,9 +48,27 @@
     </item>
     
     <item>
+      <title>Donald Trump</title>
+      <link>http://jerad.xyz/tags/donald-trump/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/tags/donald-trump/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploratory Analysis</title>
+      <link>http://jerad.xyz/tags/exploratory-analysis/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/tags/exploratory-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Healthkit</title>
       <link>http://jerad.xyz/tags/healthkit/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://jerad.xyz/tags/healthkit/</guid>
       <description></description>
@@ -104,7 +122,7 @@
     <item>
       <title>Quantified Self</title>
       <link>http://jerad.xyz/tags/quantified-self/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://jerad.xyz/tags/quantified-self/</guid>
       <description></description>
@@ -116,6 +134,15 @@
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://jerad.xyz/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Word Cloud</title>
+      <link>http://jerad.xyz/tags/word-cloud/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/tags/word-cloud/</guid>
       <description></description>
     </item>
     

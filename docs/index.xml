@@ -11,20 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Apple HealthKit Dashboard</title>
-      <link>http://jerad.xyz/project/healthkitdashboard/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/project/healthkitdashboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>NYC Motor Collision Dashboard</title>
       <link>http://jerad.xyz/project/nycmotorcollisiondashboard/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://jerad.xyz/project/nycmotorcollisiondashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trump Twitter World Cloud</title>
+      <link>http://jerad.xyz/project/trumptwitterwordcloud/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/project/trumptwitterwordcloud/</guid>
       <description></description>
     </item>
     
@@ -36,6 +36,15 @@
       <guid>http://jerad.xyz/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Apple HealthKit Dashboard</title>
+      <link>http://jerad.xyz/project/healthkitdashboard/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/project/healthkitdashboard/</guid>
+      <description></description>
     </item>
     
     <item>
