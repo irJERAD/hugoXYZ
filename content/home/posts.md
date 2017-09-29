@@ -6,11 +6,11 @@ date = "2016-04-20T00:00:00"
 draft = false
 
 title = "Recent Posts"
-subtitle = "current keyboard events"
+subtitle = "Current Events from Behind the Keyboard"
 widget = "posts"
 
 # Order that this section will appear in.
-weight = 40
+weight = 20
 
 # Filter posts by tag.
 #  By default, show all recent posts.

@@ -104,7 +104,7 @@ defaultContentLanguageInSubdir = false
     'LinkedIn',  # 1
     'JeradXYZ',  # 2
     'Medium',  # 3
-    'facebook',  # 4
+    'Facebook',  # 4
     'Book',  # 5
     'YouTube'  # 6
   ]
@@ -163,14 +163,15 @@ defaultContentLanguageInSubdir = false
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+##TODO order home page widgets and sub menu content list pages
 [[menu.main]]
   name = "Home"
   url = "#about"
   weight = 1
 
 [[menu.main]]
-  name = "Interesting Ideas"
-  url = "#ideas_selected"
+  name = "Projects"
+  url = "#projects"
   weight = 2
 
 [[menu.main]]
@@ -179,8 +180,8 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Interesting Ideas"
+  url = "#ideas_selected"
   weight = 4
 
 [[menu.main]]

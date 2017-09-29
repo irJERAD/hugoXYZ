@@ -7,7 +7,7 @@ event = "Hugo Academic Theme Conference"
 event_url = "https://example.org"
 location = "London, United Kingdom"
 
-selected = false
+selected = true
 math = true
 
 url_pdf = ""
