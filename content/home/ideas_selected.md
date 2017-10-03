@@ -17,6 +17,6 @@ weight = 40
 #   0 = Simple
 #   1 = Classic
 #   2 = Detailed
-list_format = 0
+list_format = 2
 
 +++
