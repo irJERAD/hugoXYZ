@@ -180,29 +180,36 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-  name = "Ideas"
-  url = "idea"
+  name = "Interesting Ideas"
+  identifier = "ideation"
   weight = 4
 
 [[menu.main]]
-  name = "Interesting Ideas"
+  name = "A special collection"
+  parent = "ideation"
   url = "#ideas_selected"
   weight = 5
 
 [[menu.main]]
+  name = "All Ideas"
+  parent = "ideation"
+  url = "idea"
+  weight = 6
+
+[[menu.main]]
   name = "Learning"
   url = "#learning"
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   name = "Other Content"
   url = "#external_sites"
-  weight = 7
+  weight = 8
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 8
+  weight = 9
 
 # Taxonomies.
 [taxonomies]
