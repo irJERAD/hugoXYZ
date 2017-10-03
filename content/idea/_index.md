@@ -12,6 +12,6 @@ list_format = 2
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
-caption = ""
+image = "ideaWordCloud.jpg"
+caption = "ideas come from our exposure to new thoughts and experiences"
 +++

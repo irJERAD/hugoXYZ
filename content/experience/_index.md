@@ -12,6 +12,6 @@ list_format = 1
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "lifeEquation.jpg"
-caption = ""
+caption = "life is a function of happiness over and across time"
 
 +++
