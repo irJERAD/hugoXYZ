@@ -10,7 +10,7 @@ subtitle = "A contemporary menagerie of academica exploits"
 widget = "custom"
 
 # Order that this section will appear in.
-weight = 70
+weight = 60
 
 +++
 

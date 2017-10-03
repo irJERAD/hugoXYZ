@@ -10,7 +10,7 @@ subtitle = "**Recipe for Knowledge** <br> **Ingredients**: Data <br> **Steps**: 
 widget = "ideas"
 
 # Order that this section will appear in.
-weight = 60
+weight = 50
 
 # Number of ideas to list.
 count = 10

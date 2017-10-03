@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Healthkit on Internet of Me</title>
+    <link>http://jerad.xyz/tags/healthkit/</link>
+    <description>Recent content in Healthkit on Internet of Me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jerad Acosta</copyright>
+    <lastBuildDate>Fri, 09 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/healthkit/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Apple HealthKit Dashboard</title>
+      <link>http://jerad.xyz/project/healthkitdashboard/</link>
+      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/project/healthkitdashboard/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

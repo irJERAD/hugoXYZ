@@ -9,6 +9,6 @@ subtitle = ""
 widget = "tag_cloud"
 
 # Order that this section will appear in.
-weight = 75
+weight = 85
 
 +++

@@ -39,6 +39,6 @@ weight = 5
 
 +++
 
-# Where are We?
+# Here You Are:
 
-A place to reference, recite, rinse and repeat my efforts, failures, thoughts and progress, delusions and regressions, but mostly a sandbox for whoever I am at the moment. Perhaps I'll occasionally enjoy the reminiscing with the castles or taking census of the endless games of tic-tac-toe etched in my box.
+This is my place to reference, recite, rinse and repeat my efforts, failures, thoughts and progress, delusions and regressions, but mostly a sandbox for whoever I am at the moment. Perhaps I'll occasionally enjoy the reminiscing with the castles or taking census of the endless games of tic-tac-toe etched in my box.
