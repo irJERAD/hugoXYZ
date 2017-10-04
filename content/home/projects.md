@@ -34,7 +34,7 @@ filter_default = 0
   tag = ".dashboard"
 
   [[filter]]
-    name = "Instructional"
+    name = "Notebook"
     tag = ".knitr"
 
 [[filter]]

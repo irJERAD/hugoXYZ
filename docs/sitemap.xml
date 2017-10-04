@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>http://jerad.xyz/project/computer-vision-w-image-linesegmentdector/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/project/computer-vision-w-videoplayr/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/project/nycmotorcollisiondashboard/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
     </url>
@@ -186,6 +204,16 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/computer-vision/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/dashboard/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -256,6 +284,16 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/image/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -277,7 +315,27 @@
     <url>
     
       <loc>http://jerad.xyz/tags/knitr/</loc>
-      <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/linesegmentdectector/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/notebook/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -328,6 +386,16 @@
     
       <loc>http://jerad.xyz/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/videoplayr/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

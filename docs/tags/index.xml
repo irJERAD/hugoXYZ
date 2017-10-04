@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Computer Vision</title>
+      <link>http://jerad.xyz/tags/computer-vision/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dashboard</title>
       <link>http://jerad.xyz/tags/dashboard/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
@@ -75,6 +84,15 @@
     </item>
     
     <item>
+      <title>Image</title>
+      <link>http://jerad.xyz/tags/image/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/tags/image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jekyll</title>
       <link>http://jerad.xyz/tags/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +1300</pubDate>
@@ -86,9 +104,27 @@
     <item>
       <title>Knitr</title>
       <link>http://jerad.xyz/tags/knitr/</link>
-      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://jerad.xyz/tags/knitr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linesegmentdectector</title>
+      <link>http://jerad.xyz/tags/linesegmentdectector/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/tags/linesegmentdectector/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notebook</title>
+      <link>http://jerad.xyz/tags/notebook/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/tags/notebook/</guid>
       <description></description>
     </item>
     
@@ -107,24 +143,6 @@
       <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://jerad.xyz/tags/quantified-self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>http://jerad.xyz/tags/r/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Word Cloud</title>
-      <link>http://jerad.xyz/tags/word-cloud/</link>
-      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/tags/word-cloud/</guid>
       <description></description>
     </item>
     
