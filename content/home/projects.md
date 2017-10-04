@@ -30,8 +30,12 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Interactive Dashboards"
+  name = "Dashboards"
   tag = ".dashboard"
+
+  [[filter]]
+    name = "Instructional"
+    tag = ".knitr"
 
 [[filter]]
   name = "RStats"

@@ -68,6 +68,15 @@
     
     <url>
     
+      <loc>http://jerad.xyz/project/nycmotorexploratoryanalysis/</loc>
+      <lastmod>2016-09-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/project/healthkitdashboard/</loc>
       <lastmod>2016-09-09T00:00:00+00:00</lastmod>
     </url>
@@ -78,15 +87,6 @@
     <url>
     
       <loc>http://jerad.xyz/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/project/example-external-project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -206,16 +206,6 @@
     
     <url>
     
-      <loc>http://jerad.xyz/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://jerad.xyz/tags/donald-trump/</loc>
       <lastmod>2017-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -278,6 +268,16 @@
     
       <loc>http://jerad.xyz/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+13:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/knitr/</loc>
+      <lastmod>2017-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
