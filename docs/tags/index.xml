@@ -21,11 +21,29 @@
     </item>
     
     <item>
+      <title>Artificial Intelligence</title>
+      <link>http://jerad.xyz/tags/artificial-intelligence/</link>
+      <pubDate>Sat, 01 Apr 2017 00:47:11 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Computer Vision</title>
       <link>http://jerad.xyz/tags/computer-vision/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://jerad.xyz/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connected</title>
+      <link>http://jerad.xyz/tags/connected/</link>
+      <pubDate>Sat, 01 Apr 2017 00:47:11 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/tags/connected/</guid>
       <description></description>
     </item>
     
@@ -93,6 +111,24 @@
     </item>
     
     <item>
+      <title>Iot</title>
+      <link>http://jerad.xyz/tags/iot/</link>
+      <pubDate>Sat, 01 Apr 2017 00:47:11 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ipython</title>
+      <link>http://jerad.xyz/tags/ipython/</link>
+      <pubDate>Wed, 09 Nov 2016 19:37:42 -0800</pubDate>
+      
+      <guid>http://jerad.xyz/tags/ipython/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jekyll</title>
       <link>http://jerad.xyz/tags/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +1300</pubDate>
@@ -102,47 +138,11 @@
     </item>
     
     <item>
-      <title>Knitr</title>
-      <link>http://jerad.xyz/tags/knitr/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <title>Jupyter</title>
+      <link>http://jerad.xyz/tags/jupyter/</link>
+      <pubDate>Wed, 09 Nov 2016 19:37:42 -0800</pubDate>
       
-      <guid>http://jerad.xyz/tags/knitr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linesegmentdectector</title>
-      <link>http://jerad.xyz/tags/linesegmentdectector/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/tags/linesegmentdectector/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Notebook</title>
-      <link>http://jerad.xyz/tags/notebook/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/tags/notebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Data</title>
-      <link>http://jerad.xyz/tags/open-data/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/tags/open-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantified Self</title>
-      <link>http://jerad.xyz/tags/quantified-self/</link>
-      <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/tags/quantified-self/</guid>
+      <guid>http://jerad.xyz/tags/jupyter/</guid>
       <description></description>
     </item>
     

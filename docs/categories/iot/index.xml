@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iot on Internet of Me</title>
+    <link>http://jerad.xyz/categories/iot/</link>
+    <description>Recent content in Iot on Internet of Me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Jerad Acosta</copyright>
+    <lastBuildDate>Sat, 01 Apr 2017 00:47:11 -0700</lastBuildDate>
+    <atom:link href="/categories/iot/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>IoT Dashboard | How To Physically Interface with the Connected World</title>
+      <link>http://jerad.xyz/post/iot-dashboard-how-to-interface-connected-world/</link>
+      <pubDate>Sat, 01 Apr 2017 00:47:11 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/post/iot-dashboard-how-to-interface-connected-world/</guid>
+      <description>
+
+&lt;p&gt;Call me old fashioned, but I find the pressing of a button to initiate a flurry of web requests and API calls along wireless interfaces, filling websockets or flying down an HTTP streams, possess some ephemeral quality that is immeasurably more satisfying than automated predictive measures taken assure our constant consumption carries on with a negligible amount of consideration, contemplation and consideration; thus pruning away at the self&amp;rsquo;s essential prerogative to preserve and maintain.&lt;/p&gt;
+
+&lt;p&gt;Take, for instance, the cool and consoling disposition of the refrigerator in contemporary culture. When anxiously pacing the outline of my small &lt;small&gt;[read tiny]&lt;/small&gt; San Francisco apartment, the 3 or 4 laps stop to open the refrigerator door is a fostered pastime I quite enjoy. To find everything as it was before and that my appetite has - &lt;em&gt;indeed&lt;/em&gt; - not changed in the minutes leading up until that point since the last repetition is a pacifying compulsion I have no desire to see altered.&lt;/p&gt;
+
+&lt;h3 id=&#34;iot-automated-by-a-i-aiot&#34;&gt;IoT Automated by A.I. = AIoT???&lt;/h3&gt;
+
+&lt;p&gt;A dangerously dexterous amalgamation is completely rewriting the very nature of how I protest inner turmoil along with a bouquet of fidget-focused avocations that collectively resolve to define what it means to be human. In the form of two exciting provinces of technology, synonymous with their promiscuity undergoing accelerated evolution, insinuates a providence in accord with the Heideggarian / Derridian philosopher &lt;a href=&#34;https://en.wikipedia.org/wiki/Bernard_Stiegler&#34; target=&#34;_blank&#34;&gt;Bernard Steigler&amp;rsquo;s&lt;/a&gt;, _&lt;a href=&#34;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=7&amp;amp;ved=0ahUKEwjM-u_T8YLTAhUH7mMKHVGXC5IQFgg-MAY&amp;amp;url=https%3A%2F%2Fmonoskop.org%2Fimages%2F6%2F6f%2FStiegler_Bernard_Technics_and_Time_1_The_Fault_of_Epimetheus.pdf&amp;amp;usg=AFQjCNHN1TR2D9O640t3O9RnGxJ6yUiDWQ&amp;amp;sig2=w3XP-cSooLjbLebmcbDE0w&amp;amp;bvm=bv.151325232,d.cGc&#34; target=&#34;_blank&#34;&gt;Technics and Time&lt;/a&gt;_. Persuading on man&amp;rsquo;s lacking of any manifestation of quality wherein humanity is a much humbler object of history opposed to our egocentric perspective of being the very subject. Where our relationship to the technics is perceived as creation and hailed across the valley as innovation, &amp;lsquo;&lt;em&gt;the true relationship between the &lt;strong&gt;who&lt;/strong&gt; and the &lt;strong&gt;what&lt;/strong&gt; is [mathematically] undecidable&lt;/em&gt;&amp;rsquo;.
+And we all know how fun indeterminate matrices are&amp;hellip; NONE! None at all.&lt;/p&gt;
+
+&lt;p&gt;Now that &lt;a href=&#34;https://www.facebook.com/zuck/posts/10102577175875681&#34; target=&#34;_blank&#34;&gt;the Zuck has joined this ruinous sub-humanity front&lt;/a&gt; - &lt;em&gt;and in all likelihood an unconscious victim himself&lt;/em&gt; - I have taken it upon myself to start a resistance and fight the inevitability of our destiny. To all the others left conscious and paralyzed in disbelief, join me.
+On behalf of sleeping and their involuntary participation in the oncoming Mechanization of Everything (MoE???) and execution of instinct, I bring [The]:&lt;/p&gt;
+
+&lt;h1 id=&#34;iot-dashboard&#34;&gt;IoT Dashboard&lt;/h1&gt;
+
+&lt;h2 id=&#34;a-physical-interface-for-the-connected-world&#34;&gt;A Physical Interface for the Connected World&lt;/h2&gt;
+
+&lt;p&gt;Don&amp;rsquo;t &lt;a href=&#34;http://www.standard.co.uk/news/techandgadgets/new-smart-fridge-orders-your-food-and-then-turns-on-the-oven-7306226.html&#34; target=&#34;_blank&#34;&gt;let your fridge make decisions for you!&lt;/a&gt;, order what you want, when you want at the press of a button - a real button, not some &lt;a href=&#34;http://www.marketwatch.com/story/your-refrigerator-will-soon-be-able-to-re-stock-itself-2016-01-12&#34; target=&#34;_blank&#34;&gt;skeuomorphism by way of screen&lt;/a&gt; or &lt;a href=&#34;http://www.theverge.com/2016/1/5/10708380/samsung-family-hub-fridge-mastercard-app-groceries-ces-2016&#34; target=&#34;_blank&#34;&gt;screen and app&lt;/a&gt; (though the calendar integration on that screen would provide me with a more dynamic fidget when pacing the house and checking the fridge)&lt;/p&gt;
+
+&lt;p&gt;Physical IFTTT dashboard for Push-Button IoT actions&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Flow:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Input tied to a specific action (i.e. button) &lt;required&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Press second or more buttons for more actions or defining context &lt;optional&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Input to confirm desired action / context have all been selected (i.e. key code or slide action used by FetitGo to kick off API calls)
+
+&lt;ul&gt;
+&lt;li&gt;Need confirmation action so accidental inputs don’t kick off unwanted API calls or commitments (like ordering a bunch of guinea pig food)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Technology Stack:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hardware (Button)
+
+&lt;ul&gt;
+&lt;li&gt;ESP 8233 / ESP 32
+
+&lt;ul&gt;
+&lt;li&gt;Huzzah! (ada fruit)
+
+&lt;ul&gt;
+&lt;li&gt;Adafruit.io&lt;/li&gt;
+&lt;li&gt;Feather hats (lots of easy integration)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Applications:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IFTTT Recipe Initiation for:
+*&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Amazon Go”-like buttons to order:
+
+&lt;ul&gt;
+&lt;li&gt;Hamster Food / Hey / Flooring&lt;/li&gt;
+&lt;li&gt;Toilet paper&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Similar products / Inspiration:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tantiv4.com&#34; target=&#34;_blank&#34;&gt;Tantiv4&lt;/a&gt; makes:
+
+&lt;ul&gt;
+&lt;li&gt;FetchitGo - Smart Connected Buttons&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kickstarter.com/projects/tantiv4/fetchitgo-smart-iot-controller-that-remembers-all?ref=user_menu&#34; target=&#34;_blank&#34;&gt;FetchitGO Kickstarter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Integrates with Partners:
+
+&lt;ul&gt;
+&lt;li&gt;IFTTT, gCal, Logitech, Spotify, nest, LIFX (lights), hue (personal wireless lighting), Evernote&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Amazon Dash buttons
+
+&lt;ul&gt;
+&lt;li&gt;One Click Purchases&lt;/li&gt;
+&lt;li&gt;Manage Dash Button Settings&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Parts to order and experiment with:&lt;/p&gt;
+
+&lt;iframe style=&#34;width:120px;height:240px;&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; src=&#34;//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=qf_sp_asin_til&amp;ad_type=product_link&amp;tracking_id=je0854-20&amp;marketplace=amazon&amp;region=US&amp;placement=B01KW6YCIM&amp;asins=B01KW6YCIM&amp;linkId=931bb7b167839a81774fe7db0d3b2853&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

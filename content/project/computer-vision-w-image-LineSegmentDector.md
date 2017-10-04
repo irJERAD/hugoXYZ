@@ -10,7 +10,7 @@ title = "Computer Vision with Image LineSegmentDectector"
 summary = "Using the [image. LineSegmentDectector R package](https://github.com/bnosac/image/tree/master/image.LineSegmentDetector) from the [image algorithm suite](https://github.com/bnosac/image)"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "/projects/imageLineSegmentDetector.jpg"
+image_preview = "/projects/imageLineSegmentDetector.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

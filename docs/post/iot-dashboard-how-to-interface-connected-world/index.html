@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.27.1" />
+  <meta name="author" content="Jerad Acosta">
+  <meta name="description" content="Extracting the Imperative from Data">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-91420291-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  <link rel="alternate" href="http://jerad.xyz/index.xml" type="application/rss+xml" title="Internet of Me">
+  <link rel="feed" href="http://jerad.xyz/index.xml" type="application/rss+xml" title="Internet of Me">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="http://jerad.xyz/post/iot-dashboard-how-to-interface-connected-world/">
+
+  
+
+  <title>IoT Dashboard | How To Physically Interface with the Connected World | Internet of Me</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Internet of Me</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            Interesting Ideas
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/#ideas_selected">
+                
+                <span>A special collection</span>
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/idea">
+                
+                <span>All Ideas</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#learning">
+            
+            <span>Learning</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#external_sites">
+            
+            <span>Other Content</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  <img src="/img/IoTPhysicalInterfaceDashboard.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption">IoT dashboard built on Losant Internet of Things platform</span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">IoT Dashboard | How To Physically Interface with the Connected World</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2017-04-01 00:47:11 -0700 -0700" itemprop="datePublished">
+      Apr 1, 2017
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/iot">IoT</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/iot">IoT</a
+    >, 
+    
+    <a href="/tags/connected">Connected</a
+    >, 
+    
+    <a href="/tags/artificial-intelligence">artificial-intelligence</a
+    >, 
+    
+    <a href="/tags/dashboard">dashboard</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fjerad.xyz%2fpost%2fiot-dashboard-how-to-interface-connected-world%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=IoT%20Dashboard%20%7c%20How%20To%20Physically%20Interface%20with%20the%20Connected%20World&amp;url=http%3a%2f%2fjerad.xyz%2fpost%2fiot-dashboard-how-to-interface-connected-world%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fjerad.xyz%2fpost%2fiot-dashboard-how-to-interface-connected-world%2f&amp;title=IoT%20Dashboard%20%7c%20How%20To%20Physically%20Interface%20with%20the%20Connected%20World"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fjerad.xyz%2fpost%2fiot-dashboard-how-to-interface-connected-world%2f&amp;title=IoT%20Dashboard%20%7c%20How%20To%20Physically%20Interface%20with%20the%20Connected%20World"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=IoT%20Dashboard%20%7c%20How%20To%20Physically%20Interface%20with%20the%20Connected%20World&amp;body=http%3a%2f%2fjerad.xyz%2fpost%2fiot-dashboard-how-to-interface-connected-world%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>Call me old fashioned, but I find the pressing of a button to initiate a flurry of web requests and API calls along wireless interfaces, filling websockets or flying down an HTTP streams, possess some ephemeral quality that is immeasurably more satisfying than automated predictive measures taken assure our constant consumption carries on with a negligible amount of consideration, contemplation and consideration; thus pruning away at the self&rsquo;s essential prerogative to preserve and maintain.</p>
+
+<p>Take, for instance, the cool and consoling disposition of the refrigerator in contemporary culture. When anxiously pacing the outline of my small <small>[read tiny]</small> San Francisco apartment, the 3 or 4 laps stop to open the refrigerator door is a fostered pastime I quite enjoy. To find everything as it was before and that my appetite has - <em>indeed</em> - not changed in the minutes leading up until that point since the last repetition is a pacifying compulsion I have no desire to see altered.</p>
+
+<h3 id="iot-automated-by-a-i-aiot">IoT Automated by A.I. = AIoT???</h3>
+
+<p>A dangerously dexterous amalgamation is completely rewriting the very nature of how I protest inner turmoil along with a bouquet of fidget-focused avocations that collectively resolve to define what it means to be human. In the form of two exciting provinces of technology, synonymous with their promiscuity undergoing accelerated evolution, insinuates a providence in accord with the Heideggarian / Derridian philosopher <a href="https://en.wikipedia.org/wiki/Bernard_Stiegler" target="_blank">Bernard Steigler&rsquo;s</a>, _<a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=7&amp;ved=0ahUKEwjM-u_T8YLTAhUH7mMKHVGXC5IQFgg-MAY&amp;url=https%3A%2F%2Fmonoskop.org%2Fimages%2F6%2F6f%2FStiegler_Bernard_Technics_and_Time_1_The_Fault_of_Epimetheus.pdf&amp;usg=AFQjCNHN1TR2D9O640t3O9RnGxJ6yUiDWQ&amp;sig2=w3XP-cSooLjbLebmcbDE0w&amp;bvm=bv.151325232,d.cGc" target="_blank">Technics and Time</a>_. Persuading on man&rsquo;s lacking of any manifestation of quality wherein humanity is a much humbler object of history opposed to our egocentric perspective of being the very subject. Where our relationship to the technics is perceived as creation and hailed across the valley as innovation, &lsquo;<em>the true relationship between the <strong>who</strong> and the <strong>what</strong> is [mathematically] undecidable</em>&rsquo;.
+And we all know how fun indeterminate matrices are&hellip; NONE! None at all.</p>
+
+<p>Now that <a href="https://www.facebook.com/zuck/posts/10102577175875681" target="_blank">the Zuck has joined this ruinous sub-humanity front</a> - <em>and in all likelihood an unconscious victim himself</em> - I have taken it upon myself to start a resistance and fight the inevitability of our destiny. To all the others left conscious and paralyzed in disbelief, join me.
+On behalf of sleeping and their involuntary participation in the oncoming Mechanization of Everything (MoE???) and execution of instinct, I bring [The]:</p>
+
+<h1 id="iot-dashboard">IoT Dashboard</h1>
+
+<h2 id="a-physical-interface-for-the-connected-world">A Physical Interface for the Connected World</h2>
+
+<p>Don&rsquo;t <a href="http://www.standard.co.uk/news/techandgadgets/new-smart-fridge-orders-your-food-and-then-turns-on-the-oven-7306226.html" target="_blank">let your fridge make decisions for you!</a>, order what you want, when you want at the press of a button - a real button, not some <a href="http://www.marketwatch.com/story/your-refrigerator-will-soon-be-able-to-re-stock-itself-2016-01-12" target="_blank">skeuomorphism by way of screen</a> or <a href="http://www.theverge.com/2016/1/5/10708380/samsung-family-hub-fridge-mastercard-app-groceries-ces-2016" target="_blank">screen and app</a> (though the calendar integration on that screen would provide me with a more dynamic fidget when pacing the house and checking the fridge)</p>
+
+<p>Physical IFTTT dashboard for Push-Button IoT actions</p>
+
+<ul>
+<li><p>Flow:</p>
+
+<ol>
+<li>Input tied to a specific action (i.e. button) <required>
+
+<ul>
+<li>Press second or more buttons for more actions or defining context <optional></li>
+</ul></li>
+<li>Input to confirm desired action / context have all been selected (i.e. key code or slide action used by FetitGo to kick off API calls)
+
+<ul>
+<li>Need confirmation action so accidental inputs don’t kick off unwanted API calls or commitments (like ordering a bunch of guinea pig food)</li>
+</ul></li>
+</ol></li>
+
+<li><p>Technology Stack:</p>
+
+<ul>
+<li>Hardware (Button)
+
+<ul>
+<li>ESP 8233 / ESP 32
+
+<ul>
+<li>Huzzah! (ada fruit)
+
+<ul>
+<li>Adafruit.io</li>
+<li>Feather hats (lots of easy integration)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+
+<li><p>Applications:</p>
+
+<ul>
+<li>IFTTT Recipe Initiation for:
+*</li>
+<li>&ldquo;Amazon Go”-like buttons to order:
+
+<ul>
+<li>Hamster Food / Hey / Flooring</li>
+<li>Toilet paper</li>
+</ul></li>
+</ul></li>
+
+<li><p>Similar products / Inspiration:</p>
+
+<ul>
+<li><a href="https://www.tantiv4.com" target="_blank">Tantiv4</a> makes:
+
+<ul>
+<li>FetchitGo - Smart Connected Buttons</li>
+<li><a href="https://www.kickstarter.com/projects/tantiv4/fetchitgo-smart-iot-controller-that-remembers-all?ref=user_menu" target="_blank">FetchitGO Kickstarter</a></li>
+<li>Integrates with Partners:
+
+<ul>
+<li>IFTTT, gCal, Logitech, Spotify, nest, LIFX (lights), hue (personal wireless lighting), Evernote</li>
+</ul></li>
+</ul></li>
+<li>Amazon Dash buttons
+
+<ul>
+<li>One Click Purchases</li>
+<li>Manage Dash Button Settings</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>Parts to order and experiment with:</p>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=je0854-20&marketplace=amazon&region=US&placement=B01KW6YCIM&asins=B01KW6YCIM&linkId=931bb7b167839a81774fe7db0d3b2853&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+</iframe>
+
+    </div>
+  </div>
+
+</article>
+
+
+
+<div class="article-container">
+  <h3>Related</h3>
+  <ul>
+    
+    <li><a href="/project/healthkitdashboard/">Apple HealthKit Dashboard</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="http://jerad.xyz/post/jupyter-notebook-basics/"><span
+      aria-hidden="true">&larr;</span> Jupyter Notebook Basics</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "irJERAD" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Jerad Acosta &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/python.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/html.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/css.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

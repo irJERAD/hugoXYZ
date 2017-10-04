@@ -32,6 +32,15 @@
     
     <url>
     
+      <loc>http://jerad.xyz/post/iot-dashboard-how-to-interface-connected-world/</loc>
+      <lastmod>2017-04-01T00:47:11-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/project/trumptwitterwordcloud/</loc>
       <lastmod>2017-02-08T00:00:00+00:00</lastmod>
     </url>
@@ -79,6 +88,15 @@
     
       <loc>http://jerad.xyz/post/</loc>
       <lastmod>2017-01-01T00:00:00+13:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/post/jupyter-notebook-basics/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
     </url>
     
   
@@ -195,7 +213,27 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/artificial-intelligence/</loc>
+      <lastmod>2017-04-01T00:47:11-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/categories/cheat-sheet/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -206,6 +244,16 @@
     
       <loc>http://jerad.xyz/tags/computer-vision/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/connected/</loc>
+      <lastmod>2017-04-01T00:47:11-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -294,8 +342,48 @@
     
     <url>
     
+      <loc>http://jerad.xyz/categories/instructional/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/iot/</loc>
+      <lastmod>2017-04-01T00:47:11-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/categories/iot/</loc>
+      <lastmod>2017-04-01T00:47:11-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/ipython/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -314,8 +402,28 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/jupyter/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/knitr/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/learn/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -334,8 +442,28 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/lynda/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/notebook/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/categories/notebook/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -356,6 +484,16 @@
     
       <loc>http://jerad.xyz/project/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/python/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -386,6 +524,16 @@
     
       <loc>http://jerad.xyz/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/categories/tutorial/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
       <priority>0</priority>
     </url>
     

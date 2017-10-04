@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.27.1" />
+  <meta name="author" content="Jerad Acosta">
+  <meta name="description" content="Extracting the Imperative from Data">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-91420291-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  <link rel="alternate" href="http://jerad.xyz/index.xml" type="application/rss+xml" title="Internet of Me">
+  <link rel="feed" href="http://jerad.xyz/index.xml" type="application/rss+xml" title="Internet of Me">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="http://jerad.xyz/post/jupyter-notebook-basics/">
+
+  
+
+  <title>Jupyter Notebook Basics | Internet of Me</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Internet of Me</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            Interesting Ideas
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/#ideas_selected">
+                
+                <span>A special collection</span>
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="/idea">
+                
+                <span>All Ideas</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#learning">
+            
+            <span>Learning</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#external_sites">
+            
+            <span>Other Content</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  <img src="/img/jupyterNotebookBasics.jpg" class="article-banner" itemprop="image">
+  <span class="article-header-caption">A few basic reminders on working within a Jupyter Notebook</span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Jupyter Notebook Basics</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2016-11-09 19:37:42 -0800 -0800" itemprop="datePublished">
+      Nov 9, 2016
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/cheat-sheet">cheat-sheet</a
+    >, 
+    
+    <a href="/categories/tutorial">tutorial</a
+    >, 
+    
+    <a href="/categories/instructional">instructional</a
+    >, 
+    
+    <a href="/categories/notebook">notebook</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/learn">learn</a
+    >, 
+    
+    <a href="/tags/python">python</a
+    >, 
+    
+    <a href="/tags/ipython">iPython</a
+    >, 
+    
+    <a href="/tags/jupyter">jupyter</a
+    >, 
+    
+    <a href="/tags/notebook">notebook</a
+    >, 
+    
+    <a href="/tags/lynda">lynda</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fjerad.xyz%2fpost%2fjupyter-notebook-basics%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Jupyter%20Notebook%20Basics&amp;url=http%3a%2f%2fjerad.xyz%2fpost%2fjupyter-notebook-basics%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fjerad.xyz%2fpost%2fjupyter-notebook-basics%2f&amp;title=Jupyter%20Notebook%20Basics"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fjerad.xyz%2fpost%2fjupyter-notebook-basics%2f&amp;title=Jupyter%20Notebook%20Basics"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Jupyter%20Notebook%20Basics&amp;body=http%3a%2f%2fjerad.xyz%2fpost%2fjupyter-notebook-basics%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>Some notes to keep handy as a reminder of the basics in using a Jupyter notebook</p>
+
+<h1 id="what-is-a-jupyter-notebook">What is a Jupyter notebook?</h1>
+
+<p>According to the <a href="//jupyter.org" target="_blank">Web App&rsquo;s main page</a>: <em>The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more.</em></p>
+
+<p><strong>In my own words:</strong> <em>Application for creating and sharing documents that contain:</em></p>
+
+<ul>
+<li>live code</li>
+<li>equations</li>
+<li>visualizations</li>
+<li>explanatory text</li>
+</ul>
+
+<p>Home page: <a href="http://jupyter.org/" target="_blank">http://jupyter.org/</a></p>
+
+<h1 id="notebook-tutorials">Notebook tutorials</h1>
+
+<p><em>Handy write ups on specific skills or applications of Jupyter Notebooks</em></p>
+
+<ul>
+<li><a href="https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/" target="_blank">Quick Start Guide</a>
+
+<ul>
+<li>Brief tutorial on installing and running notebooks on a local computer with no python familiarity assumed</li>
+</ul></li>
+<li><a href="http://jupyter-notebook.readthedocs.io/en/latest/" target="_blank">User Documentation</a>
+
+<ul>
+<li>User documentation on setup and configuration</li>
+</ul></li>
+<li><a href="http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/examples_index.html" target="_blank">Examples Documentation</a>
+
+<ul>
+<li>Jupyter docs with Notebook examples for definitions</li>
+</ul></li>
+<li><a href="http://bebi103.caltech.edu/2015/tutorials/t0b_intro_to_jupyter_notebooks.html" target="_blank">Cal Tech</a>
+
+<ul>
+<li>Content intro from Markdown and Latex to <a href="http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2015/tutorials/t0b_intro_to_jupyter_notebooks.html#Interactive-plotting-with-Bokeh" target="_blank">interactive plotting with bokeh</a></li>
+</ul></li>
+</ul>
+
+<h1 id="notebook-users">Notebook Users</h1>
+
+<ul>
+<li>students, readers, viewers, learners
+
+<ul>
+<li>read a digital book</li>
+<li>interact with a &ldquo;live&rdquo; book</li>
+</ul></li>
+<li>notebook developers
+
+<ul>
+<li>create notebooks for students, readers, &hellip;</li>
+</ul></li>
+</ul>
+
+<h1 id="notebooks-cells">Notebooks cells</h1>
+
+<p><em>Notebooks are composed of cells. These can be modified for myriad forms of content</em></p>
+
+<ul>
+<li>Code cells
+
+<ul>
+<li>execute interactively on computer (Python, or many other languages)</li>
+<li>memory across notebook (variable from one cell can be used in a later)</li>
+</ul></li>
+<li>Markdown cells
+
+<ul>
+<li>documentation / &ldquo;narrative&rdquo; cells
+
+<ul>
+<li>Can be used to decorate and guide a reader through a notebook</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>All cells have the following basic structure:</p>
+
+<pre><code class="language-javascript">{
+  &quot;cell_type&quot; : &quot;name&quot;,
+  &quot;metadata&quot; : {},
+  &quot;source&quot; : &quot;single string or [list, of, strings]&quot;,
+}
+</code></pre>
+
+<h2 id="markdown-cells">Markdown cells</h2>
+
+<p><em>markdown, as defined in <a href="https://help.github.com/articles/github-flavored-markdown" target="_blank">GitHub-flavored markdown</a>, and implemented in <a href="https://github.com/chjj/marked" target="_blank">marked</a></em></p>
+
+<pre><code class="language-javascript">{
+  &quot;cell_type&quot; : &quot;markdown&quot;,
+  &quot;metadata&quot; : {},
+  &quot;source&quot; : [&quot;some *markdown*&quot;],
+}
+</code></pre>
+
+<h2 id="code-cells">Code cells</h2>
+
+<p><em>contain source code in the language of the document’s associated kernel, and a list of outputs associated with executing that code. They also have an execution_count, which must be an integer or null</em></p>
+
+<pre><code class="language-javascript">{
+  &quot;cell_type&quot; : &quot;code&quot;,
+  &quot;execution_count&quot;: 1, # integer or null
+  &quot;metadata&quot; : {
+      &quot;collapsed&quot; : True, # whether the output of the cell is collapsed
+      &quot;autoscroll&quot;: False, # any of true, false or &quot;auto&quot;
+  },
+  &quot;source&quot; : [&quot;some code&quot;],
+  &quot;outputs&quot;: [{
+      # list of output dicts (described below)
+      &quot;output_type&quot;: &quot;stream&quot;,
+      ...
+  }],
+}
+</code></pre>
+
+<h3 id="code-cell-outputs">Code cell outputs</h3>
+
+<p><em>code cell outputs correspond to messages produced as a result of executing the cell</em></p>
+
+<h4 id="stream-output">stream output</h4>
+
+<pre><code class="language-javascript">{
+  &quot;output_type&quot; : &quot;stream&quot;,
+  &quot;name&quot; : &quot;stdout&quot;, # or stderr
+  &quot;text&quot; : [&quot;multiline stream text&quot;],
+}
+</code></pre>
+
+<p><em>the keys <code>stream</code> key was changed to <code>name</code> to match the stream message in nbformat: 4.0</em></p>
+
+<h4 id="display-data">display_data</h4>
+
+<p><em>Rich display outputs, as created by display_data messages, contain data keyed by mime-type</em></p>
+
+<pre><code class="language-javascript">{
+  &quot;output_type&quot; : &quot;display_data&quot;,
+  &quot;data&quot; : {
+    &quot;text/plain&quot; : [&quot;multiline text data&quot;],
+    &quot;image/png&quot;: [&quot;base64-encoded-png-data&quot;],
+    &quot;application/json&quot;: {
+      # JSON data is included as-is
+      &quot;json&quot;: &quot;data&quot;,
+    },
+  },
+  &quot;metadata&quot; : {
+    &quot;image/png&quot;: {
+      &quot;width&quot;: 640,
+      &quot;height&quot;: 480,
+    },
+  },
+}
+</code></pre>
+
+<h1 id="following-cells-are-live-cells">Following cells are &ldquo;live&rdquo; cells</h1>
+
+<pre><code class="language-python">print (&quot;Hello Jupyter World!; You are helping me learn&quot;)
+</code></pre>
+
+<pre><code>Hello Jupyter World!; You are helping me learn
+</code></pre>
+
+<pre><code class="language-python">(5+7)/4
+</code></pre>
+
+<pre><code>3
+</code></pre>
+
+<pre><code class="language-python">import numpy as np
+my_first_array = np.arange(11)
+print (my_first_array)
+</code></pre>
+
+<pre><code>[ 0  1  2  3  4  5  6  7  8  9 10]
+</code></pre>
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="http://jerad.xyz/post/getting-started/"><span
+      aria-hidden="true">&larr;</span> Getting started with the Academic framework for Hugo</a></li>
+    
+
+    
+    <li class="next"><a href="http://jerad.xyz/post/iot-dashboard-how-to-interface-connected-world/">IoT Dashboard | How To Physically Interface with the Connected World <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "irJERAD" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Jerad Acosta &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/python.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/html.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/css.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
