@@ -37,6 +37,14 @@ weight = 5
   institution = "Johns Hopkins Bloomberg School of Public Health"
   year = 2015
 
+#[[education.courses]]
+  #course = "Professional Certifications"
+  #link = "https://www.lynda.com/AllCertificates/User/2255913"
+  #description = "All Lynda.com Certifications"
+  #link = "/certificates/"
+  #description = "LinkedIn Learning and Lynda Certifications"
+  #caption = "[Lynda](https://www.lynda.com/AllCertificates/User/2255913) <a href='https://www.lynda.com/AllCertificates/User/2255913'>Certs</a>"
+
 +++
 
 # Here You Are:

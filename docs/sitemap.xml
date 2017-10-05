@@ -362,7 +362,7 @@
     
     <url>
     
-      <loc>http://jerad.xyz/tags/iot/</loc>
+      <loc>http://jerad.xyz/categories/iot/</loc>
       <lastmod>2017-04-01T00:47:11-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -372,7 +372,7 @@
     
     <url>
     
-      <loc>http://jerad.xyz/categories/iot/</loc>
+      <loc>http://jerad.xyz/tags/iot/</loc>
       <lastmod>2017-04-01T00:47:11-07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -452,8 +452,8 @@
     
     <url>
     
-      <loc>http://jerad.xyz/tags/notebook/</loc>
-      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+      <loc>http://jerad.xyz/categories/notebook/</loc>
+      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -462,8 +462,8 @@
     
     <url>
     
-      <loc>http://jerad.xyz/categories/notebook/</loc>
-      <lastmod>2016-11-09T19:37:42-08:00</lastmod>
+      <loc>http://jerad.xyz/tags/notebook/</loc>
+      <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
