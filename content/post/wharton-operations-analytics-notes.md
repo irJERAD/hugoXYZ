@@ -1,5 +1,5 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | Wharton Operations Analytics Notes }}"
+title = "Wharton Operations Analytics Notes"
 date = 2016-06-28
 draft = false
 # Tags and categories
