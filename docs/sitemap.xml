@@ -51,7 +51,7 @@
     <url>
     
       <loc>http://jerad.xyz/post/</loc>
-      <lastmod>2017-01-01T00:00:00-10:00</lastmod>
+      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
     </url>
     
   
@@ -123,7 +123,16 @@
     <url>
     
       <loc>http://jerad.xyz/post/wharton-operations-analytics-notes/</loc>
-      <lastmod>2016-06-28T00:00:00-10:00</lastmod>
+      <lastmod>2016-06-28T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/post/cat-photo-app/</loc>
+      <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -141,7 +150,7 @@
     <url>
     
       <loc>http://jerad.xyz/post/getting-started/</loc>
-      <lastmod>2017-09-03T00:00:00-10:00</lastmod>
+      <lastmod>2017-09-03T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -150,7 +159,7 @@
     <url>
     
       <loc>http://jerad.xyz/post/widgets/</loc>
-      <lastmod>2016-04-19T00:00:00-10:00</lastmod>
+      <lastmod>2016-04-19T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -159,7 +168,7 @@
     <url>
     
       <loc>http://jerad.xyz/post/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00-10:00</lastmod>
+      <lastmod>2016-04-18T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -168,7 +177,7 @@
     <url>
     
       <loc>http://jerad.xyz/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-17T00:00:00-10:00</lastmod>
+      <lastmod>2016-04-17T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -186,7 +195,7 @@
     <url>
     
       <loc>http://jerad.xyz/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-10:00</lastmod>
+      <lastmod>2014-03-10T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -232,7 +241,17 @@
     <url>
     
       <loc>http://jerad.xyz/tags/analytics/</loc>
-      <lastmod>2016-06-28T00:00:00-10:00</lastmod>
+      <lastmod>2016-06-28T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/categories/application/</loc>
+      <lastmod>2016-06-17T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -252,6 +271,7 @@
     <url>
     
       <loc>http://jerad.xyz/categories/</loc>
+      <lastmod>2016-06-17T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -290,6 +310,16 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/css/</loc>
+      <lastmod>2016-06-17T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/dashboard/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -302,6 +332,16 @@
     
       <loc>http://jerad.xyz/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/development/</loc>
+      <lastmod>2016-06-17T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -330,6 +370,16 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/front-end/</loc>
+      <lastmod>2016-06-17T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/healthkit/</loc>
       <lastmod>2016-09-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -340,8 +390,18 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/html/</loc>
+      <lastmod>2016-06-17T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00-10:00</lastmod>
+      <lastmod>2017-09-03T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -421,7 +481,7 @@
     <url>
     
       <loc>http://jerad.xyz/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-10:00</lastmod>
+      <lastmod>2014-03-10T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -461,7 +521,7 @@
     <url>
     
       <loc>http://jerad.xyz/categories/learning/</loc>
-      <lastmod>2016-06-28T00:00:00-10:00</lastmod>
+      <lastmod>2016-06-28T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     

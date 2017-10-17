@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jerad Acosta</copyright>
+    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 -0700</lastBuildDate>
     <atom:link href="/categories/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Application</title>
+      <link>http://jerad.xyz/categories/application/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/categories/application/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cheat Sheet</title>
@@ -39,7 +49,7 @@
     <item>
       <title>Learning</title>
       <link>http://jerad.xyz/categories/learning/</link>
-      <pubDate>Tue, 28 Jun 2016 00:00:00 -1000</pubDate>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 -0700</pubDate>
       
       <guid>http://jerad.xyz/categories/learning/</guid>
       <description></description>

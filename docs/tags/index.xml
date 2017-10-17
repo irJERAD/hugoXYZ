@@ -23,7 +23,7 @@
     <item>
       <title>Analytics</title>
       <link>http://jerad.xyz/tags/analytics/</link>
-      <pubDate>Tue, 28 Jun 2016 00:00:00 -1000</pubDate>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 -0700</pubDate>
       
       <guid>http://jerad.xyz/tags/analytics/</guid>
       <description></description>
@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>Css</title>
+      <link>http://jerad.xyz/tags/css/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dashboard</title>
       <link>http://jerad.xyz/tags/dashboard/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
@@ -71,6 +80,15 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://jerad.xyz/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://jerad.xyz/tags/development/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/tags/development/</guid>
       <description></description>
     </item>
     
@@ -93,6 +111,15 @@
     </item>
     
     <item>
+      <title>Front End</title>
+      <link>http://jerad.xyz/tags/front-end/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/tags/front-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Healthkit</title>
       <link>http://jerad.xyz/tags/healthkit/</link>
       <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
@@ -102,47 +129,20 @@
     </item>
     
     <item>
+      <title>Html</title>
+      <link>http://jerad.xyz/tags/html/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 -0700</pubDate>
+      
+      <guid>http://jerad.xyz/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>http://jerad.xyz/tags/hugo/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>http://jerad.xyz/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image</title>
-      <link>http://jerad.xyz/tags/image/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/tags/image/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iot</title>
-      <link>http://jerad.xyz/tags/iot/</link>
-      <pubDate>Sat, 01 Apr 2017 00:47:11 -0700</pubDate>
-      
-      <guid>http://jerad.xyz/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ipython</title>
-      <link>http://jerad.xyz/tags/ipython/</link>
-      <pubDate>Wed, 09 Nov 2016 19:37:42 -0800</pubDate>
-      
-      <guid>http://jerad.xyz/tags/ipython/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>http://jerad.xyz/tags/jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 -1000</pubDate>
-      
-      <guid>http://jerad.xyz/tags/jekyll/</guid>
       <description></description>
     </item>
     

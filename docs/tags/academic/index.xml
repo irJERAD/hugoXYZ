@@ -13,7 +13,7 @@
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
       <link>http://jerad.xyz/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -1000</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>http://jerad.xyz/post/getting-started/</guid>
       <description>
@@ -236,7 +236,7 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     <item>
       <title>Customizing the homepage with widgets</title>
       <link>http://jerad.xyz/post/widgets/</link>
-      <pubDate>Tue, 19 Apr 2016 00:00:00 -1000</pubDate>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>http://jerad.xyz/post/widgets/</guid>
       <description>
@@ -303,7 +303,7 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     <item>
       <title>Managing content</title>
       <link>http://jerad.xyz/post/managing-content/</link>
-      <pubDate>Mon, 18 Apr 2016 00:00:00 -1000</pubDate>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 -0700</pubDate>
       
       <guid>http://jerad.xyz/post/managing-content/</guid>
       <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include ideas, projects, experiences, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;http://jerad.xyz/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
