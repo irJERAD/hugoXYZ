@@ -5,7 +5,7 @@ date = "2016-09-22T02:36:16"
 abstract = "Steve and Lori Acosta Wedding"
 abstract_short = ""
 event = "Steve and Lori Acosta Wedding"
-event_url =
+event_url = ""
 location = "Chino Hills, California"
 
 math = false

@@ -153,16 +153,6 @@ On behalf of sleeping and their involuntary participation in the oncoming Mechan
     </item>
     
     <item>
-      <title>Example Experience</title>
-      <link>http://jerad.xyz/experience/example-experience/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/experience/example-experience/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Jupyter Notebook Basics</title>
       <link>http://jerad.xyz/post/jupyter-notebook-basics/</link>
       <pubDate>Wed, 09 Nov 2016 19:37:42 -0800</pubDate>
@@ -387,6 +377,8 @@ As with all beautiful days brimming with heartening nostalgic goodness, the wors
 &lt;p&gt;Since data ain&amp;rsquo;t free - &lt;em&gt;but text is&lt;/em&gt; - I can&amp;rsquo;t send an unlimited amount of pictures to an unlimited amount of people. So use this text link for the &lt;a href=&#34;https://drive.google.com/open?id=0B2tPf3k5P80jX3lCT3hXamxOdW8&amp;gt;&#34; title=&#34;Most up to date link for pictures to Steve and Lori Acosta&#39;s wedding&#34; target=&#34;_blank&#34;&gt;Current Location of Pictures&lt;/a&gt; and I can update a single location without having to keep track of who got what.&lt;/p&gt;
 
 &lt;hr /&gt;
+
+&lt;p&gt;&lt;!-- ## TODO fix images --&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -928,6 +920,16 @@ In an effort to add some creative and technical merit to my signature I have cre
 &lt;h2 id=&#34;ordering-widgets&#34;&gt;Ordering widgets&lt;/h2&gt;
 
 &lt;p&gt;The order that the homepage widgets are displayed in is defined by the &lt;code&gt;weight&lt;/code&gt; parameter in each of the files in the &lt;code&gt;content/home/&lt;/code&gt; directory. The widgets are displayed in ascending order of their &lt;code&gt;weight&lt;/code&gt;, so you can simply edit the &lt;code&gt;weight&lt;/code&gt; parameters as desired.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Person Re-Identification System For Mobile Devices</title>
+      <link>http://jerad.xyz/idea/person-re-identification/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/idea/person-re-identification/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     

@@ -13,21 +13,30 @@
     
     
     <item>
-      <title>Example Experience</title>
-      <link>http://jerad.xyz/experience/example-experience/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/experience/example-experience/</guid>
-      <description>Embed your slides or video here using shortcodes. Further details can easily be added using Markdown and $\rm \LaTeX$ math code.</description>
-    </item>
-    
-    <item>
       <title>Steve and Lori Acosta Wedding</title>
       <link>http://jerad.xyz/experience/lori-and-steve-wedding/</link>
       <pubDate>Thu, 22 Sep 2016 02:36:16 +0000</pubDate>
       
       <guid>http://jerad.xyz/experience/lori-and-steve-wedding/</guid>
       <description>I had such a wonderful time at my father, Steve Acosta&amp;rsquo;s, and mother, Lori Acosta&amp;rsquo;s, wedding. Thank you to all the family and friends who came out to participate and be a part of that memory for me - well I doubt any of you came out for me but I certainly enjoyed the experience all-the-same. As with all beautiful days brimming with heartening nostalgic goodness, the worst - if only bad - part of such wonder is the haste with which it all slips from between the fingers on the hands of experience and into the mind, its final resting place among other such memories; shuffled amongst photographs and sentimental keepsakes.</description>
+    </item>
+    
+    <item>
+      <title>A Montage of The Correct Sadists</title>
+      <link>http://jerad.xyz/experience/sadist-montage/</link>
+      <pubDate>Thu, 11 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/experience/sadist-montage/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Melowdramatic Boat</title>
+      <link>http://jerad.xyz/experience/melodramatic-boat/</link>
+      <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/experience/melodramatic-boat/</guid>
+      <description> </description>
     </item>
     
   </channel>

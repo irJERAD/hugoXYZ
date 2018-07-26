@@ -6,7 +6,7 @@ abstract = ""
 abstract_short = ""
 
 event = "Just another sesh at Deke's"
-event_url = "https://example.org"
+event_url = "https://youtu.be/9Rx8X241sqo"
 location = "Cardiff by the Sea, California"
 
 math = false
