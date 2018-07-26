@@ -30,8 +30,9 @@ weight = 5
     "Surfing",
     "Scuba",
     "Tennis",
+    "Guitar"
 # TODO Sadist Link
-    "<a href='http://jerad.xyz/experience/sadist-montage/'></a>"
+#    '<a href="http://jerad.xyz/experience/sadist-montage/">Guitar</a>'
   ]
 
 # List your qualifications (such as academic degrees).
