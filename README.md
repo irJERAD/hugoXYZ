@@ -15,6 +15,9 @@
 1. Certifications Widget
     - Page link drop-down or pull-out for Certification
     - Near education
+    - get certs from:
+      - LinkedIn
+      - Coursera
 
 ### Posts
 1. Correct Sadists
