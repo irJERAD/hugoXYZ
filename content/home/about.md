@@ -23,9 +23,13 @@ weight = 5
 # link TODO article on Operations Research Quant Fin and Marketing
 ## http://qr.ae/TUIMGV
     "Practical Applications of Econometrics",
+# Hobby / Leisure interests
     "Sailing",
     "Surfing",
-    "Scuba"
+    "Scuba",
+    "Tennis",
+# TODO Sadist Link
+    "Guitar"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -44,6 +48,7 @@ weight = 5
   institution = "Johns Hopkins Bloomberg School of Public Health"
   year = 2015
 
+## TODO create page or widget for Certifications
 #[[education.courses]]
   #course = "Professional Certifications"
   #link = "https://www.lynda.com/AllCertificates/User/2255913"

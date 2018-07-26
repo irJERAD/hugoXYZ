@@ -2,6 +2,10 @@
 date = "2017-01-01T00:00:00Z"
 title = "Example Experience"
 
+## added after by Jerad
+# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
+authors = ["Jerad Acosta"]
+
 abstract = ""
 abstract_short = ""
 
