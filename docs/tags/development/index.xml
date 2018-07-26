@@ -7,136 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jerad Acosta</copyright>
-    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 -0700</lastBuildDate>
-    <atom:link href="/tags/development/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jun 2016 00:00:00 +1200</lastBuildDate>
+    
+	<atom:link href="http://jerad.xyz/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Cat Photo App</title>
       <link>http://jerad.xyz/post/cat-photo-app/</link>
-      <pubDate>Fri, 17 Jun 2016 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +1200</pubDate>
       
       <guid>http://jerad.xyz/post/cat-photo-app/</guid>
-      <description>
+      <description>A Cat Photo App page made while going through some front end development exercises at freeCodeCamp
+Version using Kitty ipsum text  .red-text { color: red; }
+h2 { font-family: Lobster, Monospace; }
+p { font-size: 16px; font-family: Monospace; }
+.thick-green-border { border-color: green; border-width: 10px; border-style: solid; border-radius: 50%; }
+.smaller-image { width: 100px; }  -- CatPhotoApp
+Click here for cat photos.
 
-&lt;p&gt;A Cat Photo App page made while going through some front end development exercises at
-&lt;a href=&#34;https://freecodecamp.com&#34; target=&#34;_blank&#34;&gt;freeCodeCamp&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;version-using-kitty-ipsum-text&#34;&gt;Version using Kitty ipsum text&lt;/h3&gt;
-
-&lt;p&gt;&lt;link href=&#34;https://fonts.googleapis.com/css?family=Lobster&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;
-&lt;style&gt;
-  .red-text {
-    color: red;
-  }&lt;/p&gt;
-
-&lt;p&gt;h2 {
-    font-family: Lobster, Monospace;
-  }&lt;/p&gt;
-
-&lt;p&gt;p {
-    font-size: 16px;
-    font-family: Monospace;
-  }&lt;/p&gt;
-
-&lt;p&gt;&lt;!-- .iphone-outline {
-    border-color: black;
-    border-width: 50px;
-    width: 337px;
-    height: 667px;
-  } --&gt;&lt;/p&gt;
-
-&lt;p&gt;.thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-  }&lt;/p&gt;
-
-&lt;p&gt;.smaller-image {
-    width: 100px;
-  }
-&lt;/style&gt;
-&lt;!-- &lt;div class =&#34;iphone-outline&#34;&gt; --&gt;
-  &lt;h2 class=&#34;red-text&#34;&gt;CatPhotoApp&lt;/h2&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;Click here for &lt;a href=&#34;#&#34;&gt;cat photos&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;#&#34;&gt;&lt;img class=&#34;smaller-image thick-green-border&#34; alt=&#34;A cute orange cat lying on its back&#34; src=&#34;https://bit.ly/fcc-relaxing-cat&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p class=&#34;red-text&#34;&gt;Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.&lt;/p&gt;
-  &lt;p class=&#34;red-text&#34;&gt;Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.&lt;/p&gt;
-&lt;!-- &lt;/div&gt; --&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;cat-lists-and-forms&#34;&gt;Cat lists and forms&lt;/h3&gt;
-
-&lt;p&gt;&lt;link href=&#34;https://fonts.googleapis.com/css?family=Lobster&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;
-&lt;style&gt;
-  .red-text {
-    color: red;
-  }&lt;/p&gt;
-
-&lt;p&gt;h2 {
-    font-family: Lobster, Monospace;
-  }&lt;/p&gt;
-
-&lt;p&gt;p {
-    font-size: 16px;
-    font-family: Monospace;
-  }&lt;/p&gt;
-
-&lt;p&gt;.thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-  }&lt;/p&gt;
-
-&lt;p&gt;.smaller-image {
-    width: 100px;
-  }&lt;/p&gt;
-
-&lt;p&gt;.gray-background {
-    background-color: gray;
-  }&lt;/p&gt;
-
-&lt;p&gt;#cat-photo-form {
-    background-color: green;
-  }
-&lt;/style&gt;&lt;/p&gt;
-
-&lt;h2 class=&#34;red-text&#34;&gt;CatPhotoApp&lt;/h2&gt;
-
-&lt;p&gt;Click here for &lt;a href=&#34;#&#34;&gt;cat photos&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;#&#34;&gt;&lt;img class=&#34;smaller-image thick-green-border&#34; alt=&#34;A cute orange cat lying on its back&#34; src=&#34;https://bit.ly/fcc-relaxing-cat&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;div&gt;
-  &lt;p&gt;Things cats love:&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;cat nip&lt;/li&gt;
-    &lt;li&gt;laser pointers&lt;/li&gt;
-    &lt;li&gt;lasagna&lt;/li&gt;
-&lt;/ul&gt;
-  &lt;p&gt;Top 3 things cats hate:&lt;/p&gt;
-  &lt;ol&gt;
-    &lt;li&gt;flea treatment&lt;/li&gt;
-    &lt;li&gt;thunder&lt;/li&gt;
-    &lt;li&gt;other cats&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-
-&lt;form action=&#34;/submit-cat-photo&#34; id=&#34;cat-photo-form&#34;&gt;
-  &lt;label&gt;&lt;input type=&#34;radio&#34; name=&#34;indoor-outdoor&#34; checked&gt; Indoor&lt;/label&gt;
-  &lt;label&gt;&lt;input type=&#34;radio&#34; name=&#34;indoor-outdoor&#34;&gt; Outdoor&lt;/label&gt;
-  &lt;label&gt;&lt;input type=&#34;checkbox&#34; name=&#34;personality&#34; checked&gt; Loving&lt;/label&gt;
-  &lt;label&gt;&lt;input type=&#34;checkbox&#34; name=&#34;personality&#34;&gt; Lazy&lt;/label&gt;
-  &lt;label&gt;&lt;input type=&#34;checkbox&#34; name=&#34;personality&#34;&gt; Energetic&lt;/label&gt;
-  &lt;input type=&#34;text&#34; placeholder=&#34;cat photo URL&#34; required&gt;
-  &lt;button type=&#34;submit&#34;&gt;Submit&lt;/button&gt;
-&lt;/form&gt;
-</description>
+Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</description>
     </item>
     
   </channel>

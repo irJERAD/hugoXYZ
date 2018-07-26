@@ -8,7 +8,99 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jerad Acosta</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://jerad.xyz/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://jerad.xyz/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/home/about/</guid>
+      <description>Here You Are: This is my place to reference, recite, rinse and repeat my efforts, failures, thoughts and progress, delusions and regressions, but mostly a sandbox for whoever I am at the moment. Perhaps I&amp;rsquo;ll occasionally enjoy the reminiscing with the castles or taking census of the endless games of tic-tac-toe etched in my box.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://jerad.xyz/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://jerad.xyz/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events &amp; Experiences</title>
+      <link>http://jerad.xyz/home/experiences/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/home/experiences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ideas of Interest: A Collection</title>
+      <link>http://jerad.xyz/home/ideas_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1200</pubDate>
+      
+      <guid>http://jerad.xyz/home/ideas_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ideas That Have Me Thinking</title>
+      <link>http://jerad.xyz/home/ideas/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +1200</pubDate>
+      
+      <guid>http://jerad.xyz/home/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>http://jerad.xyz/home/learning/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/home/learning/</guid>
+      <description>A sophophilic in my practice, on a constant quest to collect an provide actionable insights from the knowledge I extract and catalog from myriad data source. An essential personal quality often transpiring as epistemophilia commands a philomath consistently emerge across any routine I maintain. Fortunately the internet has been brilliantly employed by world class educators, developers, and innovative contemporary minds on education to provide unimpeded access to priceless facilities to enable a constant challenge for fulfilling growth as an autodidactic.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://jerad.xyz/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elsewhere Content Accommodations</title>
+      <link>http://jerad.xyz/home/external_sites/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/home/external_sites/</guid>
+      <description>irData Ninja: Dedicated to the exploration of concepts and applications of Data in the acquisition of actionable insights and the distillation of knowledge. LinkedIn: A more professional pressence.  LinkedIn Articles What that professional pressence wants you to read about me.  Medium @irJerad: My profiled collection of Medium highlights, claps, and those I follow.  Medium RSS: Subscribe to the RSS feed incase I post articles to Medium.  Quora: An anthology of answers I have submitted in response to the queries of others.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://jerad.xyz/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +1200</pubDate>
+      
+      <guid>http://jerad.xyz/home/tags/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

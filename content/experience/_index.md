@@ -1,6 +1,14 @@
 +++
-title = "The Sum of My Experiences"
 date = "2017-01-01T00:00:00Z"
+title = "Example Experience"
+
+abstract = ""
+abstract_short = ""
+
+event = "Hugo Academic Theme Conference"
+event_url = "https://example.org"
+location = "Cardiff by the Sea, California"
+
 math = false
 highlight = false
 

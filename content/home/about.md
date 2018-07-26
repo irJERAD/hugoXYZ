@@ -10,12 +10,19 @@ widget = "about"
 weight = 5
 
 # List your academic interests.
+# TODO seperate Intellectual / Professional v. Hobby
 [interests]
+# TODO add subheader i.e. Intellectual _that which I seek to understand
   interests = [
     "Data Science",
     "Business Analytics",
     "Machine Learning",
-    "Neural Networks and Other Quantitative Models of Biological Systems",
+    "Quantitative Models of Biological & Social Economic Systems:",
+    "Neural Networks",
+    "Game Theory",
+# link TODO article on Operations Research Quant Fin and Marketing
+## http://qr.ae/TUIMGV
+    "Practical Applications of Econometrics",
     "Sailing",
     "Surfing",
     "Scuba"

@@ -364,6 +364,33 @@ print (my_first_array)
     </item>
     
     <item>
+      <title>Steve and Lori Acosta Wedding</title>
+      <link>http://jerad.xyz/experience/lori-and-steve-wedding/</link>
+      <pubDate>Thu, 22 Sep 2016 02:36:16 +0000</pubDate>
+      
+      <guid>http://jerad.xyz/experience/lori-and-steve-wedding/</guid>
+      <description>&lt;p&gt;I had such a wonderful time at my father, &lt;a href=&#34;https://www.facebook.com/steve.acosta.146&amp;gt;&#34; title=&#34;Steve Acosta&#39;s Facebook&#34; target=&#34;_blank&#34;&gt;Steve Acosta&lt;/a&gt;&amp;rsquo;s, and mother, &lt;a href=&#34;https://www.facebook.com/lori.tiggesramirez&amp;gt;&#34; target=&#34;_blank&#34;&gt;Lori Acosta&lt;/a&gt;&amp;rsquo;s, wedding. Thank you to all the family and friends who came out to participate and be a part of that memory for me - &lt;em&gt;well I doubt any of you came out for &lt;strong&gt;me&lt;/strong&gt; but I certainly enjoyed the experience all-the-same&lt;/em&gt;.
+As with all beautiful days brimming with heartening nostalgic goodness, the worst - &lt;em&gt;if only bad&lt;/em&gt; - part of such wonder is the haste with which it all slips from between the fingers on the hands of experience and into the mind, its final resting place among other such memories; shuffled amongst photographs and sentimental keepsakes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For a day so full of beauty the rising Sun must have superlatively amassed a faultless prescription of nostalgia&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In an imperfect attempt to capture the day&amp;hellip;
+&lt;em&gt;like two figure skaters chasing the dream&lt;/em&gt;
+&lt;img src=&#34;https://pbs.twimg.com/media/CN_6jyTUkAAviOT.jpg&amp;gt;&#34; alt=&#34;capture the dream&#34; title=&#34;Capture The Dream Ice Skating&#34; /&gt;
+&amp;hellip;we comfort ourselves with matrices of colored points encapsulated by digital pixels the way our smart phones encapsulate our lives,&lt;em&gt;with their pictal diaries&lt;/em&gt;; that is to say, &lt;em&gt;if it isn&amp;rsquo;t there, it didn&amp;rsquo;t happen nor does it exist.&lt;/em&gt; A dull aftertaste of the only recently begotten FOMO era no doubt.
+(epitome / epitomize)[As if to only live on as an epitome of &amp;hellip;]&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jerad.xyz/images/DadWedding/MothraQuick.gif&amp;gt;&#34; alt=&#34;Amanda attacked by Mothra&#34; title=&#34;Amanda being attacked by Mothra during wedding pictures with mom&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since data ain&amp;rsquo;t free - &lt;em&gt;but text is&lt;/em&gt; - I can&amp;rsquo;t send an unlimited amount of pictures to an unlimited amount of people. So use this text link for the &lt;a href=&#34;https://drive.google.com/open?id=0B2tPf3k5P80jX3lCT3hXamxOdW8&amp;gt;&#34; title=&#34;Most up to date link for pictures to Steve and Lori Acosta&#39;s wedding&#34; target=&#34;_blank&#34;&gt;Current Location of Pictures&lt;/a&gt; and I can update a single location without having to keep track of who got what.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Apple HealthKit Dashboard</title>
       <link>http://jerad.xyz/project/healthkitdashboard/</link>
       <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
@@ -375,7 +402,7 @@ print (my_first_array)
     <item>
       <title>Wharton Operations Analytics Notes</title>
       <link>http://jerad.xyz/post/wharton-operations-analytics-notes/</link>
-      <pubDate>Tue, 28 Jun 2016 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +1200</pubDate>
       
       <guid>http://jerad.xyz/post/wharton-operations-analytics-notes/</guid>
       <description>
@@ -564,7 +591,7 @@ Expected value of Demand = E[demand = 20%] + E[demand = 10%] + E[demand = 70%] =
     <item>
       <title>How to Create a Custom Email Signature for Mail</title>
       <link>http://jerad.xyz/post/custom-email-signature/</link>
-      <pubDate>Mon, 27 Jun 2016 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +1200</pubDate>
       
       <guid>http://jerad.xyz/post/custom-email-signature/</guid>
       <description>
@@ -693,7 +720,7 @@ In an effort to add some creative and technical merit to my signature I have cre
     <item>
       <title>Cat Photo App</title>
       <link>http://jerad.xyz/post/cat-photo-app/</link>
-      <pubDate>Fri, 17 Jun 2016 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +1200</pubDate>
       
       <guid>http://jerad.xyz/post/cat-photo-app/</guid>
       <description>
@@ -840,7 +867,7 @@ In an effort to add some creative and technical merit to my signature I have cre
     <item>
       <title>Customizing the homepage with widgets</title>
       <link>http://jerad.xyz/post/widgets/</link>
-      <pubDate>Tue, 19 Apr 2016 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 19 Apr 2016 00:00:00 +1200</pubDate>
       
       <guid>http://jerad.xyz/post/widgets/</guid>
       <description>
@@ -901,16 +928,6 @@ In an effort to add some creative and technical merit to my signature I have cre
 &lt;h2 id=&#34;ordering-widgets&#34;&gt;Ordering widgets&lt;/h2&gt;
 
 &lt;p&gt;The order that the homepage widgets are displayed in is defined by the &lt;code&gt;weight&lt;/code&gt; parameter in each of the files in the &lt;code&gt;content/home/&lt;/code&gt; directory. The widgets are displayed in ascending order of their &lt;code&gt;weight&lt;/code&gt;, so you can simply edit the &lt;code&gt;weight&lt;/code&gt; parameters as desired.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>http://jerad.xyz/idea/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://jerad.xyz/idea/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     

@@ -7,136 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Jerad Acosta</copyright>
-    <lastBuildDate>Mon, 27 Jun 2016 00:00:00 -0700</lastBuildDate>
-    <atom:link href="/tags/tutorial/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jun 2016 00:00:00 +1200</lastBuildDate>
+    
+	<atom:link href="http://jerad.xyz/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to Create a Custom Email Signature for Mail</title>
       <link>http://jerad.xyz/post/custom-email-signature/</link>
-      <pubDate>Mon, 27 Jun 2016 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +1200</pubDate>
       
       <guid>http://jerad.xyz/post/custom-email-signature/</guid>
-      <description>
-
-&lt;p&gt;Personal email signatures are a great way to add a personal touch.
-Many know of and how to already do this in their email client of choice.
-Mail in OS X has some great options for customizing your personal signature and even allows for the creation of multiple and the formatting of the text and content.
-In an effort to add some creative and technical merit to my signature I have created a custom HTML signature. Links, formatted text and even pictures are already supported in the OS X native Mail client. What an HTML signature provides me is access to a wider range of format customization through inline CSS.&lt;/p&gt;
-
-&lt;p&gt;I would like two email signatures, one for my office email with my day job and one for my personal email such as that connected to &lt;a href=&#34;www.Jerad.xyz&#34; target=&#34;_blank&#34;&gt;this site&lt;/a&gt;. I would like each email to have a branded experience so that someone reading an email from my office account will feel like they are reading something composed by my office and someone reading an email from my personal account feels connected to the content herein where I write about my endeavors into such things. I also want my signature to be clickable, sending the reader to a relevant location or opening up an email template readily addressed to myself.&lt;/p&gt;
-
-&lt;p&gt;What I want in an email signature:
-- Two emails
-  - Professional
-  - Personal
-- Branded experience
-- Hot spaces for active clicking
-  - Email link
-  - Link to website&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
-	a.link{margin:0;padding:0;border:none;text-decoration:none;}
-&amp;lt;/style&amp;gt;
-
-&amp;lt;br /&amp;gt;
-&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=UTF-8&amp;quot;&amp;gt;
-&amp;lt;meta name=&amp;quot;format-detection&amp;quot; content=&amp;quot;telephone=no&amp;quot;&amp;gt;
-
-&amp;lt;table width=&#39;320&#39; id=&amp;quot;sig&amp;quot; cellspacing=&#39;0&#39; cellpadding=&#39;0&#39; border-spacing=&#39;0&#39; style=&amp;quot;width:320px;margin:0;padding:0;&amp;quot;&amp;gt;
-	&amp;lt;tr&amp;gt;
-		&amp;lt;td width=&amp;quot;86&amp;quot; style=&amp;quot;width:86px;margin:0;padding:0;&amp;quot;&amp;gt;
-			&amp;lt;a href=&#39;[Desired-link-destination]&#39; style=&amp;quot;border:none;text-decoration:none;&amp;quot;&amp;gt;
-        &amp;lt;img moz-do-not-send=&amp;quot;true&amp;quot; src=&amp;quot;[Address-of-Image]&amp;quot; alt=&amp;quot;GiantUser&amp;quot; style=&amp;quot;border:none;width:86px;&amp;quot;&amp;gt;
-      &amp;lt;/a&amp;gt;
-		&amp;lt;/td&amp;gt;
-
-  	&amp;lt;td width=&amp;quot;10&amp;quot; style=&amp;quot;width:10px;min-width:10px;max-width:10px;margin:0;padding:0;&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;
-    &amp;lt;!-- &amp;lt;td width=&amp;quot;10&amp;quot; style=&amp;quot;width:10px;min-width:10px;max-width:10px;margin:0;padding:0;border-left:1px solid #e0e0e0&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt; --&amp;gt;
-
-		&amp;lt;td valign=&#39;top&#39; style=&amp;quot;margin:0;padding:0;&amp;quot;&amp;gt;
-			&amp;lt;table id=&amp;quot;sig2&amp;quot; cellspacing=&#39;0&#39; cellpadding=&#39;0&#39; border-spacing=&#39;0&#39; style=&amp;quot;padding:0;margin:0;font-family:&#39;Lucida Grande&#39;,sans-serif;font-size:12px;color:#b0b0b0;border-collapse:collapse;-webkit-text-size-adjust:none;&amp;quot;&amp;gt;
-				&amp;lt;tr style=&amp;quot;margin:0;padding:0;&amp;quot;&amp;gt;
-					&amp;lt;td style=&amp;quot;margin:0;padding:0;font-family:&#39;Lucida Grande&#39;,sans-serif;white-space:nowrap;&amp;quot;&amp;gt;
-						&amp;lt;strong&amp;gt;&amp;lt;a href=&amp;quot;mailto:[Your-Email-Address]&amp;quot; style=&amp;quot;border:none;text-decoration:none;color:#049cdb;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#049cdb&amp;quot;&amp;gt;Your Name&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;span style=&amp;quot;color:e0e0e0;&amp;quot;&amp;gt;,&amp;lt;/span&amp;gt;
-						&amp;lt;span style=&amp;quot;color:#b0b0b0;&amp;quot;&amp;gt;Job Title or Position&amp;lt;/span&amp;gt;
-					&amp;lt;/td&amp;gt;
-				&amp;lt;/tr&amp;gt;
-				&amp;lt;tr style=&amp;quot;margin:0;padding:0;color:#b0a49b;&amp;quot;&amp;gt;
-					&amp;lt;td style=&amp;quot;margin:0;padding:0;font-family:&#39;Lucida Grande&#39;,sans-serif;white-space:nowrap;&amp;quot;&amp;gt;
-						&amp;lt;a href=&amp;quot;[Office-or-Personal-Website]&amp;quot; style=&amp;quot;border:none;text-decoration:none;color:#b0b0b0;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;[Office-or-Personal-Website-Name]&amp;lt;span style=&amp;quot;color:#e0e0e0&amp;quot;&amp;gt;.&amp;lt;/span&amp;gt;com&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;span style=&amp;quot;color:e0e0e0;&amp;quot;&amp;gt;,&amp;lt;/span&amp;gt;
-						&amp;lt;a href=&amp;quot;http://g.co/maps/wnbde [Google-Map-To-Open-Showing Office-Location]&amp;quot; style=&amp;quot;border:none;text-decoration:none;color:#b0b0b0;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;New York[Text-Location-Of-Office-That-Opens-Google-Map-Link]&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
-					&amp;lt;/td&amp;gt;
-				&amp;lt;/tr&amp;gt;
-
-				&amp;lt;tr style=&amp;quot;margin:0;padding:0;color:#b0a49b;&amp;quot;&amp;gt;
-					&amp;lt;td style=&amp;quot;margin:0;padding:0;font-family:&#39;Lucida Grande&#39;,sans-serif;white-space:nowrap;&amp;quot;&amp;gt;
-						&amp;lt;a href=&amp;quot;tel:[Phone Number]&amp;quot; style=&amp;quot;margin:0;padding:0;border:none;text-decoration:none;color:#b0b0b0;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;347&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color:#e0e0e0&amp;quot;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;688&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color:#e0e0e0&amp;quot;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;7226&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
-						&amp;lt;span style=&amp;quot;color:e0e0e0;&amp;quot;&amp;gt;&amp;amp;bull;&amp;lt;/span&amp;gt;
-						&amp;lt;a href=&amp;quot;http://twitter.com/[Twitter-Handle]&amp;quot; style=&amp;quot;margin:0;padding:0;border:none;text-decoration:none;color:#b0b0b0;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;Twitter&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
-					&amp;lt;/td&amp;gt;
-				&amp;lt;/tr&amp;gt;
-			&amp;lt;/table&amp;gt;
-		&amp;lt;/td&amp;gt;
-	&amp;lt;tr&amp;gt;
-&amp;lt;/table&amp;gt;
-&amp;lt;br /&amp;gt;
-&amp;amp;nbsp;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;current-draft&#34;&gt;Current Draft&lt;/h3&gt;
-
-&lt;p&gt;Here is what my current draft of a custom HTML email signature for the OS X Mail client:&lt;/p&gt;
-
-&lt;style type=&#34;text/css&#34;&gt;
-    a.link{margin:0;padding:0;border:none;text-decoration:none;}
-&lt;/style&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34;&gt;
-&lt;meta name=&#34;format-detection&#34; content=&#34;telephone=no&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;table width=&#39;320&#39; id=&#34;sig&#34; cellspacing=&#39;0&#39; cellpadding=&#39;0&#39; border-spacing=&#39;0&#39; style=&#34;width:320px;margin:0;padding:0;&#34;&gt;
-    &lt;tr&gt;
-        &lt;td width=&#34;86&#34; style=&#34;width:86px;margin:0;padding:0;&#34;&gt;
-            &lt;a href=&#39;http://Jerad.xyz&#39; style=&#34;border:none;text-decoration:none;&#34;&gt;
-        &lt;img moz-do-not-send=&#34;true&#34; src=&#34;http://jerad.xyz/images/JA.png&#34; alt=&#34;MySite&#34; style=&#34;border:none;width:86px;&#34;&gt;
-      &lt;/a&gt;
-        &lt;/td&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;td width=&amp;quot;10&amp;quot; style=&amp;quot;width:10px;min-width:10px;max-width:10px;margin:0;padding:0;&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt;
-&amp;lt;!-- &amp;lt;td width=&amp;quot;10&amp;quot; style=&amp;quot;width:10px;min-width:10px;max-width:10px;margin:0;padding:0;border-left:1px solid #e0e0e0&amp;quot;&amp;gt;&amp;amp;nbsp;&amp;lt;/td&amp;gt; --&amp;gt;
-
-    &amp;lt;td valign=&#39;top&#39; style=&amp;quot;margin:0;padding:0;&amp;quot;&amp;gt;
-        &amp;lt;table id=&amp;quot;sig2&amp;quot; cellspacing=&#39;0&#39; cellpadding=&#39;0&#39; border-spacing=&#39;0&#39; style=&amp;quot;padding:0;margin:0;font-family:&#39;Lucida Grande&#39;,sans-serif;font-size:12px;color:#b0b0b0;border-collapse:collapse;-webkit-text-size-adjust:none;&amp;quot;&amp;gt;
-            &amp;lt;tr style=&amp;quot;margin:0;padding:0;&amp;quot;&amp;gt;
-                &amp;lt;td style=&amp;quot;margin:0;padding:0;font-family:&#39;Lucida Grande&#39;,sans-serif;white-space:nowrap;&amp;quot;&amp;gt;
-                    &amp;lt;strong&amp;gt;&amp;lt;a href=&amp;quot;mailto:ir@Jerad.xyz&amp;quot; style=&amp;quot;border:none;text-decoration:none;color:#049cdb;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#049cdb&amp;quot;&amp;gt;Jerad Acosta&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;span style=&amp;quot;color:e0e0e0;&amp;quot;&amp;gt;,&amp;lt;/span&amp;gt;
-                    &amp;lt;span style=&amp;quot;color:#b0b0b0;&amp;quot;&amp;gt;Reckoner&amp;lt;/span&amp;gt;
-                &amp;lt;/td&amp;gt;
-            &amp;lt;/tr&amp;gt;
-            &amp;lt;tr style=&amp;quot;margin:0;padding:0;color:#b0a49b;&amp;quot;&amp;gt;
-                &amp;lt;td style=&amp;quot;margin:0;padding:0;font-family:&#39;Lucida Grande&#39;,sans-serif;white-space:nowrap;&amp;quot;&amp;gt;
-                    &amp;lt;a href=&amp;quot;http://Jerad.xyz&amp;quot; style=&amp;quot;border:none;text-decoration:none;color:#b0b0b0;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;Jerad&amp;lt;span style=&amp;quot;color:#e0e0e0&amp;quot;&amp;gt;.&amp;lt;/span&amp;gt;XYZ&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;span style=&amp;quot;color:e0e0e0;&amp;quot;&amp;gt;,&amp;lt;/span&amp;gt;
-                    &amp;lt;a href=&amp;quot;https://goo.gl/maps/H3iGyTgo8vJ2&amp;quot; style=&amp;quot;border:none;text-decoration:none;color:#b0b0b0;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;San Francisco&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
-                &amp;lt;/td&amp;gt;
-            &amp;lt;/tr&amp;gt;
-
-            &amp;lt;tr style=&amp;quot;margin:0;padding:0;color:#b0a49b;&amp;quot;&amp;gt;
-                &amp;lt;td style=&amp;quot;margin:0;padding:0;font-family:&#39;Lucida Grande&#39;,sans-serif;white-space:nowrap;&amp;quot;&amp;gt;
-                    &amp;lt;a href=&amp;quot;tel:+1-760-840-0524&amp;quot; style=&amp;quot;margin:0;padding:0;border:none;text-decoration:none;color:#b0b0b0;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;760&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color:#e0e0e0&amp;quot;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;840&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color:#e0e0e0&amp;quot;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;0524&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
-                    &amp;lt;span style=&amp;quot;color:e0e0e0;&amp;quot;&amp;gt;&amp;amp;bull;&amp;lt;/span&amp;gt;
-                    &amp;lt;a href=&amp;quot;http://twitter.com/irJERAD&amp;quot; style=&amp;quot;margin:0;padding:0;border:none;text-decoration:none;color:#b0b0b0;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color:#b0b0b0&amp;quot;&amp;gt;Twitter&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
-                &amp;lt;/td&amp;gt;
-            &amp;lt;/tr&amp;gt;
-        &amp;lt;/table&amp;gt;
-    &amp;lt;/td&amp;gt;
-&amp;lt;tr&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/table&gt;
-&lt;br /&gt;
-&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>Personal email signatures are a great way to add a personal touch. Many know of and how to already do this in their email client of choice. Mail in OS X has some great options for customizing your personal signature and even allows for the creation of multiple and the formatting of the text and content. In an effort to add some creative and technical merit to my signature I have created a custom HTML signature.</description>
     </item>
     
   </channel>
