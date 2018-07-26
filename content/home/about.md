@@ -13,7 +13,7 @@ weight = 5
 # TODO seperate Intellectual / Professional v. Hobby
 [interests]
 # TODO add subheader i.e. Intellectual _that which I seek to understand
-  interests = [
+  mind = [
     "Data Science",
     "Business Analytics",
     "Machine Learning",
@@ -22,14 +22,16 @@ weight = 5
     "Game Theory",
 # link TODO article on Operations Research Quant Fin and Marketing
 ## http://qr.ae/TUIMGV
-    "Practical Applications of Econometrics",
+    "Practical Applications of Econometrics"
+  ]
+  body = [
 # Hobby / Leisure interests
     "Sailing",
     "Surfing",
     "Scuba",
     "Tennis",
 # TODO Sadist Link
-    "Guitar"
+    "<a href='http://jerad.xyz/experience/sadist-montage/'></a>"
   ]
 
 # List your qualifications (such as academic degrees).

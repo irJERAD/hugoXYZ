@@ -1,0 +1,100 @@
+# Navigation
+
+- id: toggle_navigation
+  translation: Alterar navegação
+
+# Buttons
+
+- id: btn_details
+  translation: Detalhes
+
+- id: btn_pdf
+  translation: PDF
+
+- id: btn_slides
+  translation: Slides
+
+- id: btn_video
+  translation: Vídeo
+
+- id: btn_code
+  translation: Código
+
+- id: btn_dataset
+  translation: Dados
+
+- id: btn_project
+  translation: Projeto
+
+# About widget
+
+- id: interests
+  translation: Interesses
+
+- id: education
+  translation: Formação
+
+# ideas widget
+
+- id: more_ideas
+  translation: Mais Publicações
+
+# Posts widget
+
+- id: continue_reading
+  translation: CONTINUE LENDO
+
+- id: more_posts
+  translation: Mais Posts
+
+# experiences widget
+
+- id: more_experiences
+  translation: Mais Palestras
+
+# idea/experience details
+
+- id: abstract
+  translation: Resumo
+
+- id: idea
+  translation: Publicação
+
+- id: idea_type
+  translation: Tipo
+
+- id: date
+  translation: Data
+
+- id: links
+  translation: Links
+
+- id: event
+  translation: Evento
+
+- id: location
+  translation: Local
+
+# Filtering
+
+- id: filter_by_type
+  translation: Filtro por tipo
+
+- id: filter_all
+  translation: Todos
+
+# Project details
+
+- id: open_project_site
+  translation: Ir para o site do projeto
+
+# Default node titles
+
+- id: posts
+  translation: Posts
+
+- id: ideas
+  translation: Publicações
+
+- id: experiences
+  translation: Palestras

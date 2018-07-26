@@ -1,0 +1,100 @@
+# Navigation
+
+- id: toggle_navigation
+  translation: Переключить навигацию
+
+# Buttons
+
+- id: btn_details
+  translation: Подробнее
+
+- id: btn_pdf
+  translation: PDF
+
+- id: btn_slides
+  translation: Слайды
+
+- id: btn_video
+  translation: Видео
+
+- id: btn_code
+  translation: Код
+
+- id: btn_dataset
+  translation: Набор данных
+
+- id: btn_project
+  translation: Проект
+
+# About widget
+
+- id: interests
+  translation: Интересы
+
+- id: education
+  translation: Образование
+
+# ideas widget
+
+- id: more_ideas
+  translation: Больше публикаций
+
+# Posts widget
+
+- id: continue_reading
+  translation: Читать далее
+
+- id: more_posts
+  translation: Больше статей
+
+# experiences widget
+
+- id: more_experiences
+  translation: Больше выступлений
+
+# idea/experience details
+
+- id: abstract
+  translation: Аннотация
+
+- id: idea
+  translation: Публикация
+
+- id: idea_type
+  translation: Тип
+
+- id: date
+  translation: Дата
+
+- id: links
+  translation: Ссылки
+
+- id: event
+  translation: Событие
+
+- id: location
+  translation: Место
+
+# Filtering
+
+- id: filter_by_type
+  translation: Фильтровать по типу
+
+- id: filter_all
+  translation: Все
+
+# Project details
+
+- id: open_project_site
+  translation: Перейти на сайт проекта
+
+# Section titles
+
+- id: posts
+  translation: Статьи
+
+- id: ideas
+  translation: Публикации
+
+- id: experiences
+  translation: Выступления
