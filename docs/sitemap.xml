@@ -131,6 +131,15 @@
     
     <url>
     
+      <loc>http://jerad.xyz/post/custom-email-signature/</loc>
+      <lastmod>2016-06-27T00:00:00-07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/post/cat-photo-app/</loc>
       <lastmod>2016-06-17T00:00:00-07:00</lastmod>
     </url>
@@ -149,15 +158,6 @@
     
     <url>
     
-      <loc>http://jerad.xyz/post/getting-started/</loc>
-      <lastmod>2017-09-03T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://jerad.xyz/post/widgets/</loc>
       <lastmod>2016-04-19T00:00:00-07:00</lastmod>
     </url>
@@ -167,35 +167,8 @@
     
     <url>
     
-      <loc>http://jerad.xyz/post/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-17T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://jerad.xyz/idea/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-07:00</lastmod>
     </url>
     
   
@@ -360,6 +333,16 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/email/</loc>
+      <lastmod>2016-06-27T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/tags/exploratory-analysis/</loc>
       <lastmod>2017-02-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -401,7 +384,7 @@
     <url>
     
       <loc>http://jerad.xyz/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00-07:00</lastmod>
+      <lastmod>2016-04-19T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -472,16 +455,6 @@
     
       <loc>http://jerad.xyz/tags/ipython/</loc>
       <lastmod>2016-11-09T19:37:42-08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://jerad.xyz/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -580,6 +553,16 @@
     
     <url>
     
+      <loc>http://jerad.xyz/tags/profession/</loc>
+      <lastmod>2016-06-27T00:00:00-07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://jerad.xyz/project/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -622,6 +605,16 @@
     
       <loc>http://jerad.xyz/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://jerad.xyz/tags/tutorial/</loc>
+      <lastmod>2016-06-27T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
