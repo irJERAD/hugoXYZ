@@ -18,6 +18,8 @@
     - get certs from:
       - LinkedIn
       - Coursera
+2. [hcard](http://microformats.org/wiki/about)
+    - Contact and ID for what looks like data apps
 
 ### Posts
 1. Correct Sadists
