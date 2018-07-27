@@ -20,6 +20,10 @@
       - Coursera
 2. [hcard](http://microformats.org/wiki/about)
     - Contact and ID for what looks like data apps
+    - [Article](https://www.amitgawande.com/indiewebify-hugo-website/)
+    - Updates to:
+      - Footer: define self
+      - Post-header & content: define content (Events, Projects etc)
 
 ### Posts
 1. Correct Sadists

@@ -1,8 +1,28 @@
 {{ $permalink := "http://jerad.xyz/404.html" }}
-{{ define "main"}}
-    <main id="main">
-      <div>
-       <h1 id="title"><a href="{{ "/" | relURL }}">Go Home</a></h1>
-      </div>
-    </main>
-{{ end }}
+
+<style>
+body {
+  background-image: url("https://i.imgur.com/lcxyE0D.gif");
+  background-size:100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+}
+</style>
+
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<body>
+  <div class="container">
+    <h1 style="text-align:center;font-weight:bold">
+      <button type="button" style="background:trasparent;color:#A8A8A8">
+        <a href="{{ "/" | relURL }}">Go Home</a>
+      </button>
+    </h1>
+  </div>
+</body>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
