@@ -107,6 +107,15 @@ defaultContentLanguageInSubdir = false
     'YouTube'  # 6
   ]
 
+  cert_types = [
+    'Data', #0
+    'IoT', #1
+    'Web', #2
+    'Business', #3
+    'Software', #4
+    'Other', #5
+  ]
+
   # Social/Academic Networking
   #
   # Icon pack "fa" includes the following social network icons:
@@ -174,7 +183,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Posts"
-  url = "#posts"
+  url = "/posts"
   weight = 10
 
 [[menu.main]]

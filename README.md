@@ -13,11 +13,8 @@
 
 ### Features Widgets Theme
 1. Certifications Widget
-    - Page link drop-down or pull-out for Certification
-    - Near education
-    - get certs from:
-      - LinkedIn
-      - Coursera
+    + Drop down Nav
+    - Auto fill /certification/ page with pdf links
 2. [hcard](http://microformats.org/wiki/about)
     - Contact and ID for what looks like data apps
     - [Article](https://www.amitgawande.com/indiewebify-hugo-website/)

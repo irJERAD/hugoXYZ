@@ -2,6 +2,8 @@
 certification = "Course or Certification"
 date = "2017-01-01"
 
+abstract = ""
+
 ## added after by Jerad
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Jerad Acosta"]
@@ -15,11 +17,12 @@ highlight = false
 list_format = 0
 
 ## Logical grouping for type sorting
-cert_types = ["1"]
+# 'Data', #0  'IoT', #1  'Web', #2  'Business', #3
+# 'Software', #4  'Other', #5
+cert_types = [""]
 
-event = "Hugo Academic Theme Conference"
-cert_pdf = "certificates/"
-location = "Cardiff by the Sea, California"
+cert_pdf = "certifications/"
+location = "LinkedIn"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
