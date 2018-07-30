@@ -31,10 +31,8 @@ defaultContentLanguageInSubdir = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "ir@jerad.xyz"
   address = "h47 47 Hobson Street Suite 510, Auckland Central Aucklan, 1010 New Zealand"
-  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "+64 027 531 6179"
   skype = "jeradacosta"
-  # telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = "irjerad"
@@ -172,44 +170,56 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 2
+  weight = 5
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 3
+  weight = 10
 
 [[menu.main]]
   name = "Interesting Ideas"
   identifier = "ideation"
-  weight = 4
+  weight = 15
 
 [[menu.main]]
   name = "A special collection"
   parent = "ideation"
   url = "#ideas_selected"
-  weight = 5
+  weight = 20
 
 [[menu.main]]
   name = "All Ideas"
   parent = "ideation"
-  url = "idea"
-  weight = 6
+  url = "#idea"
+  weight = 25
+
+[[menu.main]]
+  name = "Skills"
+  identifier = "Skills"
+  weight = 30
 
 [[menu.main]]
   name = "Learning"
+  parent = "Skills"
   url = "#learning"
-  weight = 7
+  weight = 31
+
+[[menu.main]]
+  name = "Certifications"
+  parent = "Skills"
+  url = "/certification"
+  weight = 32
 
 [[menu.main]]
   name = "Other Content"
   url = "#external_sites"
-  weight = 8
+  weight = 40
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 9
+  weight = 45
 
 # Taxonomies.
 [taxonomies]

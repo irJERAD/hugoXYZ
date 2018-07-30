@@ -24,6 +24,7 @@
     - Updates to:
       - Footer: define self
       - Post-header & content: define content (Events, Projects etc)
+3. Nav bar auto scoll thing-y for Experiences section
 
 ### Posts
 1. Correct Sadists

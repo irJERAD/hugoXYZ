@@ -5,7 +5,7 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Projects"
+title = "House Hold Rant"
 subtitle = ""
 widget = "projects"
 
@@ -33,12 +33,11 @@ filter_default = 0
   name = "Dashboards"
   tag = ".dashboard"
 
-  [[filter]]
-    name = "Notebook"
-    tag = ".knitr"
+[[filter]]
+  name = "Notebook"
+  tag = ".knitr"
 
 [[filter]]
   name = "RStats"
   tag = ".r"
-
 +++
